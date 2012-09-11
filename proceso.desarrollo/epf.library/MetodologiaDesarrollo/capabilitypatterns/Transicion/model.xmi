@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_-Ul0IftYEeGqXdxMnxN7qQ" guid="_-Ul0IftYEeGqXdxMnxN7qQ">
+    <resourceDescriptors xmi:id="_-Ul0IvtYEeGqXdxMnxN7qQ" id="-vJ_wUNeV3AlrSUpBgk89Dg" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_-UHTAPtYEeGqXdxMnxN7qQ" name="Transicion" guid="_-UHTAPtYEeGqXdxMnxN7qQ">
+    <methodElementProperty xmi:id="__RPCkPtYEeGqXdxMnxN7qQ" name="me_edited" value="true"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_-UHTAftYEeGqXdxMnxN7qQ" name="Transicion" guid="_-UHTAftYEeGqXdxMnxN7qQ" presentationName="Transición [1..n]">
+      <presentation xmi:id="-vJ_wUNeV3AlrSUpBgk89Dg" href="uma://-vJ_wUNeV3AlrSUpBgk89Dg#-vJ_wUNeV3AlrSUpBgk89Dg"/>
+      <defaultContext href="uma://_pYXM0fkeEeGFTJgG8flRpQ#_NQLMoPrrEeGw0sux5RQ_6A"/>
+      <validContext href="uma://_pYXM0fkeEeGFTJgG8flRpQ#_NQLMoPrrEeGw0sux5RQ_6A"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_pYXM0vkeEeGFTJgG8flRpQ" guid="_pYXM0vkeEeGFTJgG8flRpQ">
+    <subManagers xmi:id="_F4dUgfm0EeGw0sux5RQ_6A" href="uma://_F34swPm0EeGw0sux5RQ_6A#_F4dUgfm0EeGw0sux5RQ_6A"/>
+    <resourceDescriptors xmi:id="_pYXM0_keEeGFTJgG8flRpQ" id="_pYXM0fkeEeGFTJgG8flRpQ" uri=""/>
+    <resourceDescriptors xmi:id="_F4dUgvm0EeGw0sux5RQ_6A" id="_F34swPm0EeGw0sux5RQ_6A" uri="MetodologiaDesarrollo/plugin.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodLibrary xmi:id="_pYXM0fkeEeGFTJgG8flRpQ" name="epf.library" guid="_pYXM0fkeEeGFTJgG8flRpQ" briefDescription="libreria para revisar los distintos modelos de implementación que tiene el epf composer en su pagina web">
+    <methodElementProperty xmi:id="_pbCGUPkeEeGFTJgG8flRpQ" name="library_synFree" value="true"/>
+    <methodPlugins xmi:id="_F34swPm0EeGw0sux5RQ_6A" href="uma://_F34swPm0EeGw0sux5RQ_6A#_F34swPm0EeGw0sux5RQ_6A"/>
+  </org.eclipse.epf.uma:MethodLibrary>
+</xmi:XMI>

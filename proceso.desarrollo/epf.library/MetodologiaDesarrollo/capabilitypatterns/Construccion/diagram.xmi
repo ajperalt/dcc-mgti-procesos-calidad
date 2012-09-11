@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML">
+  <uml:Activity xmi:id="_vfNY0PubEeGqXdxMnxN7qQ" name="Construccion">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vfNY0fubEeGqXdxMnxN7qQ" source="uma_element">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vfNY0vubEeGqXdxMnxN7qQ" key="uri" value="uma://_7iSEkPtYEeGqXdxMnxN7qQ#_7iSEkftYEeGqXdxMnxN7qQ"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vfNY0_ubEeGqXdxMnxN7qQ" key="type" value="Activity"/>
+    </eAnnotations>
+  </uml:Activity>
+  <notation:Diagram xmi:id="_vfNY1PubEeGqXdxMnxN7qQ" type="AD" element="_vfNY0PubEeGqXdxMnxN7qQ" name="Construccion" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_vfNY1fubEeGqXdxMnxN7qQ"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_vfNY1vubEeGqXdxMnxN7qQ"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_vfNY1_ubEeGqXdxMnxN7qQ"/>
+  </notation:Diagram>
+</xmi:XMI>

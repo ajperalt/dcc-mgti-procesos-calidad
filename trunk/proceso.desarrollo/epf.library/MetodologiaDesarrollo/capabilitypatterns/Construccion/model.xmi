@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_7iqfEftYEeGqXdxMnxN7qQ" guid="_7iqfEftYEeGqXdxMnxN7qQ">
+    <resourceDescriptors xmi:id="_7iqfEvtYEeGqXdxMnxN7qQ" id="-XlQD7nVSiJj2Rw1uNgUH6g" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_7iSEkPtYEeGqXdxMnxN7qQ" name="Construccion" guid="_7iSEkPtYEeGqXdxMnxN7qQ">
+    <methodElementProperty xmi:id="_8meFcPtYEeGqXdxMnxN7qQ" name="me_edited" value="true"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_7iSEkftYEeGqXdxMnxN7qQ" name="Construccion" guid="_7iSEkftYEeGqXdxMnxN7qQ" presentationName="Construcción [1..n]">
+      <presentation xmi:id="-XlQD7nVSiJj2Rw1uNgUH6g" href="uma://-XlQD7nVSiJj2Rw1uNgUH6g#-XlQD7nVSiJj2Rw1uNgUH6g"/>
+      <defaultContext href="uma://_pYXM0fkeEeGFTJgG8flRpQ#_NQLMoPrrEeGw0sux5RQ_6A"/>
+      <validContext href="uma://_pYXM0fkeEeGFTJgG8flRpQ#_NQLMoPrrEeGw0sux5RQ_6A"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

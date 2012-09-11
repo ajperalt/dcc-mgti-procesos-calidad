@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_-lS_EftXEeGqXdxMnxN7qQ" guid="_-lS_EftXEeGqXdxMnxN7qQ">
+    <resourceDescriptors xmi:id="_-lS_EvtXEeGqXdxMnxN7qQ" id="-SVhvZxwjRwGiuh_pt-tEwQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_-kuXUPtXEeGqXdxMnxN7qQ" name="Elaboracion" guid="_-kuXUPtXEeGqXdxMnxN7qQ">
+    <methodElementProperty xmi:id="_5if-IPtYEeGqXdxMnxN7qQ" name="me_edited" value="true"/>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_hsL7Yft7EeGqXdxMnxN7qQ" name="New Activity" guid="_hsL7Yft7EeGqXdxMnxN7qQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_hsL7Yvt7EeGqXdxMnxN7qQ" name="New Activity" guid="_hsL7Yvt7EeGqXdxMnxN7qQ" presentationName="Especificar casos de uso, alto detalle" superActivities="_-kuXUftXEeGqXdxMnxN7qQ"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_-kuXUftXEeGqXdxMnxN7qQ" name="Elaboracion" guid="_-kuXUftXEeGqXdxMnxN7qQ" presentationName="Elaboración [1..n]" breakdownElements="_hsL7Yvt7EeGqXdxMnxN7qQ">
+      <presentation xmi:id="-SVhvZxwjRwGiuh_pt-tEwQ" href="uma://-SVhvZxwjRwGiuh_pt-tEwQ#-SVhvZxwjRwGiuh_pt-tEwQ"/>
+      <defaultContext href="uma://_pYXM0fkeEeGFTJgG8flRpQ#_NQLMoPrrEeGw0sux5RQ_6A"/>
+      <validContext href="uma://_pYXM0fkeEeGFTJgG8flRpQ#_NQLMoPrrEeGw0sux5RQ_6A"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_7roqUftXEeGqXdxMnxN7qQ" guid="_7roqUftXEeGqXdxMnxN7qQ">
+    <resourceDescriptors xmi:id="_7roqUvtXEeGqXdxMnxN7qQ" id="-2M66h7LVW_mKROTTSuhk9Q" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_7q31UPtXEeGqXdxMnxN7qQ" name="Concepcion" guid="_7q31UPtXEeGqXdxMnxN7qQ">
+    <methodElementProperty xmi:id="_D-WucPtYEeGqXdxMnxN7qQ" name="me_edited" value="true"/>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_kU7xMft5EeGqXdxMnxN7qQ" name="New Activity" guid="_kU7xMft5EeGqXdxMnxN7qQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_kU7xMvt5EeGqXdxMnxN7qQ" name="New Activity" guid="_kU7xMvt5EeGqXdxMnxN7qQ" presentationName="Crear plan de proyecto" superActivities="_7q31UftXEeGqXdxMnxN7qQ" linkToPredecessor="_rkUJAft5EeGqXdxMnxN7qQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_rkUJAft5EeGqXdxMnxN7qQ" guid="_rkUJAft5EeGqXdxMnxN7qQ" pred="_MyoNMftoEeGqXdxMnxN7qQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_7Qvloft5EeGqXdxMnxN7qQ" name="New Activity_2" guid="_7Qvloft5EeGqXdxMnxN7qQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_7Qvlovt5EeGqXdxMnxN7qQ" name="New Activity_2" guid="_7Qvlovt5EeGqXdxMnxN7qQ" presentationName="Analizar el negocio" superActivities="_7q31UftXEeGqXdxMnxN7qQ" linkToPredecessor="_9bIZkft5EeGqXdxMnxN7qQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_9bIZkft5EeGqXdxMnxN7qQ" guid="_9bIZkft5EeGqXdxMnxN7qQ" pred="_MyoNMftoEeGqXdxMnxN7qQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_AUOGkPt6EeGqXdxMnxN7qQ" name="New Activity_3" guid="_AUOGkPt6EeGqXdxMnxN7qQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_AUOGkft6EeGqXdxMnxN7qQ" name="New Activity_3" guid="_AUOGkft6EeGqXdxMnxN7qQ" presentationName="Levantar casos de uso preliminares" superActivities="_7q31UftXEeGqXdxMnxN7qQ" linkToPredecessor="_CQj3cft6EeGqXdxMnxN7qQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_CQj3cft6EeGqXdxMnxN7qQ" guid="_CQj3cft6EeGqXdxMnxN7qQ" pred="_7Qvlovt5EeGqXdxMnxN7qQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_LxHnsft6EeGqXdxMnxN7qQ" name="New Activity_4" guid="_LxHnsft6EeGqXdxMnxN7qQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_LxHnsvt6EeGqXdxMnxN7qQ" name="New Activity_4" guid="_LxHnsvt6EeGqXdxMnxN7qQ" presentationName="Desarrollar alcance funcional" superActivities="_7q31UftXEeGqXdxMnxN7qQ" linkToPredecessor="_Qnm1gPt6EeGqXdxMnxN7qQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_Qnm1gPt6EeGqXdxMnxN7qQ" guid="_Qnm1gPt6EeGqXdxMnxN7qQ" pred="_AUOGkft6EeGqXdxMnxN7qQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Scsu4ft6EeGqXdxMnxN7qQ" name="New Activity_5" guid="_Scsu4ft6EeGqXdxMnxN7qQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_Scsu4vt6EeGqXdxMnxN7qQ" name="New Activity_5" guid="_Scsu4vt6EeGqXdxMnxN7qQ" presentationName="Definir  plan de iteraciones" superActivities="_7q31UftXEeGqXdxMnxN7qQ" linkToPredecessor="_XrcEoft6EeGqXdxMnxN7qQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_XrcEoft6EeGqXdxMnxN7qQ" guid="_XrcEoft6EeGqXdxMnxN7qQ" pred="_LxHnsvt6EeGqXdxMnxN7qQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_bT_fsft6EeGqXdxMnxN7qQ" name="New Activity_6" guid="_bT_fsft6EeGqXdxMnxN7qQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_bT_fsvt6EeGqXdxMnxN7qQ" name="New Activity_6" guid="_bT_fsvt6EeGqXdxMnxN7qQ" presentationName="Editar plan de proyecto" superActivities="_7q31UftXEeGqXdxMnxN7qQ" linkToPredecessor="_fbZZ8ft6EeGqXdxMnxN7qQ _fbZZ8vt6EeGqXdxMnxN7qQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_fbZZ8ft6EeGqXdxMnxN7qQ" guid="_fbZZ8ft6EeGqXdxMnxN7qQ" pred="_Scsu4vt6EeGqXdxMnxN7qQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_fbZZ8vt6EeGqXdxMnxN7qQ" guid="_fbZZ8vt6EeGqXdxMnxN7qQ" pred="_kU7xMvt5EeGqXdxMnxN7qQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_hL_04ft6EeGqXdxMnxN7qQ" name="New Activity_7" guid="_hL_04ft6EeGqXdxMnxN7qQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_hL_04vt6EeGqXdxMnxN7qQ" name="New Activity_7" guid="_hL_04vt6EeGqXdxMnxN7qQ" presentationName="Socializar plan de proyecto" superActivities="_7q31UftXEeGqXdxMnxN7qQ" linkToPredecessor="_jcHdYft6EeGqXdxMnxN7qQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_jcHdYft6EeGqXdxMnxN7qQ" guid="_jcHdYft6EeGqXdxMnxN7qQ" pred="_bT_fsvt6EeGqXdxMnxN7qQ"/>
+    </childPackages>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_MyoNMftoEeGqXdxMnxN7qQ" name="New Task Descriptor" guid="_MyoNMftoEeGqXdxMnxN7qQ" presentationName="Firma acta de inicio" superActivities="_7q31UftXEeGqXdxMnxN7qQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_3Qym8ftoEeGqXdxMnxN7qQ" guid="_3Qym8ftoEeGqXdxMnxN7qQ" pred="_MyoNMftoEeGqXdxMnxN7qQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_3Qym8vtoEeGqXdxMnxN7qQ" guid="_3Qym8vtoEeGqXdxMnxN7qQ" pred="_MyoNMftoEeGqXdxMnxN7qQ"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_7q31UftXEeGqXdxMnxN7qQ" name="Concepcion" guid="_7q31UftXEeGqXdxMnxN7qQ" presentationName="Concepción [1..n]" breakdownElements="_MyoNMftoEeGqXdxMnxN7qQ _kU7xMvt5EeGqXdxMnxN7qQ _7Qvlovt5EeGqXdxMnxN7qQ _AUOGkft6EeGqXdxMnxN7qQ _LxHnsvt6EeGqXdxMnxN7qQ _Scsu4vt6EeGqXdxMnxN7qQ _bT_fsvt6EeGqXdxMnxN7qQ _hL_04vt6EeGqXdxMnxN7qQ">
+      <presentation xmi:id="-2M66h7LVW_mKROTTSuhk9Q" href="uma://-2M66h7LVW_mKROTTSuhk9Q#-2M66h7LVW_mKROTTSuhk9Q"/>
+      <defaultContext href="uma://_pYXM0fkeEeGFTJgG8flRpQ#_NQLMoPrrEeGw0sux5RQ_6A"/>
+      <validContext href="uma://_pYXM0fkeEeGFTJgG8flRpQ#_NQLMoPrrEeGw0sux5RQ_6A"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

@@ -5,7 +5,10 @@
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:ProcessComponent xmi:id="_-UHTAPtYEeGqXdxMnxN7qQ" name="Transicion" guid="_-UHTAPtYEeGqXdxMnxN7qQ">
     <methodElementProperty xmi:id="__RPCkPtYEeGqXdxMnxN7qQ" name="me_edited" value="true"/>
-    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_-UHTAftYEeGqXdxMnxN7qQ" name="Transicion" guid="_-UHTAftYEeGqXdxMnxN7qQ" presentationName="Transición [1..n]">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ULbNMfwMEeGB9KiFNE47tg" name="New Activity" guid="_ULbNMfwMEeGB9KiFNE47tg">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_ULbNMvwMEeGB9KiFNE47tg" name="New Activity" guid="_ULbNMvwMEeGB9KiFNE47tg" presentationName="prueba" superActivities="_-UHTAftYEeGqXdxMnxN7qQ"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_-UHTAftYEeGqXdxMnxN7qQ" name="Transicion" guid="_-UHTAftYEeGqXdxMnxN7qQ" presentationName="Transición [1..n]" breakdownElements="_ULbNMvwMEeGB9KiFNE47tg">
       <presentation xmi:id="-vJ_wUNeV3AlrSUpBgk89Dg" href="uma://-vJ_wUNeV3AlrSUpBgk89Dg#-vJ_wUNeV3AlrSUpBgk89Dg"/>
       <defaultContext href="uma://_pYXM0fkeEeGFTJgG8flRpQ#_NQLMoPrrEeGw0sux5RQ_6A"/>
       <validContext href="uma://_pYXM0fkeEeGFTJgG8flRpQ#_NQLMoPrrEeGw0sux5RQ_6A"/>

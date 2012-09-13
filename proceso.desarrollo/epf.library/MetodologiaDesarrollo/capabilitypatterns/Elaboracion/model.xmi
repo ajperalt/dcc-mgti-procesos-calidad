@@ -8,7 +8,53 @@
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_hsL7Yft7EeGqXdxMnxN7qQ" name="New Activity" guid="_hsL7Yft7EeGqXdxMnxN7qQ">
       <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_hsL7Yvt7EeGqXdxMnxN7qQ" name="New Activity" guid="_hsL7Yvt7EeGqXdxMnxN7qQ" presentationName="Especificar casos de uso, alto detalle" superActivities="_-kuXUftXEeGqXdxMnxN7qQ"/>
     </childPackages>
-    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_-kuXUftXEeGqXdxMnxN7qQ" name="Elaboracion" guid="_-kuXUftXEeGqXdxMnxN7qQ" presentationName="Elaboración [1..n]" breakdownElements="_hsL7Yvt7EeGqXdxMnxN7qQ">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_X2oXUf1DEeGzFO2q06vpCQ" name="New Activity_2" guid="_X2oXUf1DEeGzFO2q06vpCQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_X2oXUv1DEeGzFO2q06vpCQ" name="New Activity_2" guid="_X2oXUv1DEeGzFO2q06vpCQ" presentationName="Definicion de requisitos NO Funcionales" superActivities="_-kuXUftXEeGqXdxMnxN7qQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_pOyV8f1DEeGzFO2q06vpCQ" name="New Activity_3" guid="_pOyV8f1DEeGzFO2q06vpCQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_pOyV8v1DEeGzFO2q06vpCQ" name="New Activity_3" guid="_pOyV8v1DEeGzFO2q06vpCQ" presentationName="Diseño preliminar de arquitectura" superActivities="_-kuXUftXEeGqXdxMnxN7qQ" linkToPredecessor="_FNZ88f1EEeGzFO2q06vpCQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_FNZ88f1EEeGzFO2q06vpCQ" guid="_FNZ88f1EEeGzFO2q06vpCQ" pred="_X2oXUv1DEeGzFO2q06vpCQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_JlU_cf1EEeGzFO2q06vpCQ" name="New Activity_4" guid="_JlU_cf1EEeGzFO2q06vpCQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_JlU_cv1EEeGzFO2q06vpCQ" name="New Activity_4" guid="_JlU_cv1EEeGzFO2q06vpCQ" presentationName="Desarrollo prototipo arquitectura" superActivities="_-kuXUftXEeGqXdxMnxN7qQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_M6-Fkf1EEeGzFO2q06vpCQ" name="New Activity_5" guid="_M6-Fkf1EEeGzFO2q06vpCQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_M6-Fkv1EEeGzFO2q06vpCQ" name="New Activity_5" guid="_M6-Fkv1EEeGzFO2q06vpCQ" presentationName="Refinar documento de arquitectura" superActivities="_-kuXUftXEeGqXdxMnxN7qQ" linkToPredecessor="_f_bN8P1EEeGzFO2q06vpCQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_f_bN8P1EEeGzFO2q06vpCQ" guid="_f_bN8P1EEeGzFO2q06vpCQ" pred="_JlU_cv1EEeGzFO2q06vpCQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_6ijHUf1EEeGzFO2q06vpCQ" name="New Activity_7" guid="_6ijHUf1EEeGzFO2q06vpCQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_6ijHUv1EEeGzFO2q06vpCQ" name="New Activity_7" guid="_6ijHUv1EEeGzFO2q06vpCQ" presentationName="Verificacion documento de arquitectura" superActivities="_-kuXUftXEeGqXdxMnxN7qQ" linkToPredecessor="_9DAR4P1EEeGzFO2q06vpCQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_9DAR4P1EEeGzFO2q06vpCQ" guid="_9DAR4P1EEeGzFO2q06vpCQ" pred="_M6-Fkv1EEeGzFO2q06vpCQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_KpPeEf1FEeGzFO2q06vpCQ" name="New Activity_8" guid="_KpPeEf1FEeGzFO2q06vpCQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_KpPeEv1FEeGzFO2q06vpCQ" name="New Activity_8" guid="_KpPeEv1FEeGzFO2q06vpCQ" presentationName="Verificar especificacion funcional" superActivities="_-kuXUftXEeGqXdxMnxN7qQ" linkToPredecessor="_UCV7cf1FEeGzFO2q06vpCQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_UCV7cf1FEeGzFO2q06vpCQ" guid="_UCV7cf1FEeGzFO2q06vpCQ" pred="_hsL7Yvt7EeGqXdxMnxN7qQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_QrvzEf1FEeGzFO2q06vpCQ" name="New Activity_9" guid="_QrvzEf1FEeGzFO2q06vpCQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_QrvzEv1FEeGzFO2q06vpCQ" name="New Activity_9" guid="_QrvzEv1FEeGzFO2q06vpCQ" presentationName="Validar especificacion" superActivities="_-kuXUftXEeGqXdxMnxN7qQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_w2jRMP1GEeGzFO2q06vpCQ" name="New Activity_10" guid="_w2jRMP1GEeGzFO2q06vpCQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_w2jRMf1GEeGzFO2q06vpCQ" name="New Activity_10" guid="_w2jRMf1GEeGzFO2q06vpCQ" presentationName="Modelar diagramas de secuencia de sistema" superActivities="_-kuXUftXEeGqXdxMnxN7qQ" linkToPredecessor="_zLP3sf1GEeGzFO2q06vpCQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_zLP3sf1GEeGzFO2q06vpCQ" guid="_zLP3sf1GEeGzFO2q06vpCQ" pred="_6ijHUv1EEeGzFO2q06vpCQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_d7v-of1HEeGzFO2q06vpCQ" name="New Activity_11" guid="_d7v-of1HEeGzFO2q06vpCQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_d7v-ov1HEeGzFO2q06vpCQ" name="New Activity_11" guid="_d7v-ov1HEeGzFO2q06vpCQ" presentationName="Diseñar diagrama de colaboracion" superActivities="_-kuXUftXEeGqXdxMnxN7qQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_hbVD4f1HEeGzFO2q06vpCQ" name="New Activity_12" guid="_hbVD4f1HEeGzFO2q06vpCQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_hbVD4v1HEeGzFO2q06vpCQ" name="New Activity_12" guid="_hbVD4v1HEeGzFO2q06vpCQ" presentationName="Construir diagrama de clases" superActivities="_-kuXUftXEeGqXdxMnxN7qQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_oaw7MP1HEeGzFO2q06vpCQ" name="New Activity_13" guid="_oaw7MP1HEeGzFO2q06vpCQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_oaw7Mf1HEeGzFO2q06vpCQ" name="New Activity_13" guid="_oaw7Mf1HEeGzFO2q06vpCQ" presentationName="Construir diagrama MER" superActivities="_-kuXUftXEeGqXdxMnxN7qQ" linkToPredecessor="_rZ3woP1HEeGzFO2q06vpCQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_rZ3woP1HEeGzFO2q06vpCQ" guid="_rZ3woP1HEeGzFO2q06vpCQ" pred="_hbVD4v1HEeGzFO2q06vpCQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_sWOrMf1HEeGzFO2q06vpCQ" name="New Activity_14" guid="_sWOrMf1HEeGzFO2q06vpCQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_sWOrMv1HEeGzFO2q06vpCQ" name="New Activity_14" guid="_sWOrMv1HEeGzFO2q06vpCQ" presentationName="Verificación del diseño" superActivities="_-kuXUftXEeGqXdxMnxN7qQ" linkToPredecessor="_0Um3Af1HEeGzFO2q06vpCQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_0Um3Af1HEeGzFO2q06vpCQ" guid="_0Um3Af1HEeGzFO2q06vpCQ" pred="_oaw7Mf1HEeGzFO2q06vpCQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="__8-BQf1HEeGzFO2q06vpCQ" name="New Activity_15" guid="__8-BQf1HEeGzFO2q06vpCQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="__8-BQv1HEeGzFO2q06vpCQ" name="New Activity_15" guid="__8-BQv1HEeGzFO2q06vpCQ" presentationName="Analisis de fase" superActivities="_-kuXUftXEeGqXdxMnxN7qQ"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_-kuXUftXEeGqXdxMnxN7qQ" name="Elaboracion" guid="_-kuXUftXEeGqXdxMnxN7qQ" presentationName="Elaboración [1..n]" breakdownElements="_hsL7Yvt7EeGqXdxMnxN7qQ _X2oXUv1DEeGzFO2q06vpCQ _pOyV8v1DEeGzFO2q06vpCQ _JlU_cv1EEeGzFO2q06vpCQ _M6-Fkv1EEeGzFO2q06vpCQ _6ijHUv1EEeGzFO2q06vpCQ _KpPeEv1FEeGzFO2q06vpCQ _QrvzEv1FEeGzFO2q06vpCQ _w2jRMf1GEeGzFO2q06vpCQ _d7v-ov1HEeGzFO2q06vpCQ _hbVD4v1HEeGzFO2q06vpCQ _oaw7Mf1HEeGzFO2q06vpCQ _sWOrMv1HEeGzFO2q06vpCQ __8-BQv1HEeGzFO2q06vpCQ">
       <presentation xmi:id="-SVhvZxwjRwGiuh_pt-tEwQ" href="uma://-SVhvZxwjRwGiuh_pt-tEwQ#-SVhvZxwjRwGiuh_pt-tEwQ"/>
       <defaultContext href="uma://_pYXM0fkeEeGFTJgG8flRpQ#_NQLMoPrrEeGw0sux5RQ_6A"/>
       <validContext href="uma://_pYXM0fkeEeGFTJgG8flRpQ#_NQLMoPrrEeGw0sux5RQ_6A"/>

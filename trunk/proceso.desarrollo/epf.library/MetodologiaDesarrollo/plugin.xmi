@@ -7,6 +7,7 @@
     <subManagers xmi:id="_7iqfEftYEeGqXdxMnxN7qQ" href="uma://_7iSEkPtYEeGqXdxMnxN7qQ#_7iqfEftYEeGqXdxMnxN7qQ"/>
     <subManagers xmi:id="_-Ul0IftYEeGqXdxMnxN7qQ" href="uma://_-UHTAPtYEeGqXdxMnxN7qQ#_-Ul0IftYEeGqXdxMnxN7qQ"/>
     <subManagers xmi:id="_Hz2sQAAtEeK2F4TMwJDD2g" href="uma://_HvFhAAAtEeK2F4TMwJDD2g#_Hz2sQAAtEeK2F4TMwJDD2g"/>
+    <subManagers xmi:id="_EAF2AQBJEeK2F4TMwJDD2g" href="uma://_D-J8UABJEeK2F4TMwJDD2g#_EAF2AQBJEeK2F4TMwJDD2g"/>
     <resourceDescriptors xmi:id="_VSePIfrrEeGw0sux5RQ_6A" id="_VSYIgPrrEeGw0sux5RQ_6A" uri="deliveryprocesses/lucasian.labs.metodologia.desarrollo/model.xmi"/>
     <resourceDescriptors xmi:id="_7q31U_tXEeGqXdxMnxN7qQ" id="_7q31UPtXEeGqXdxMnxN7qQ" uri="capabilitypatterns/Concepcion/model.xmi"/>
     <resourceDescriptors xmi:id="_-kuXU_tXEeGqXdxMnxN7qQ" id="_-kuXUPtXEeGqXdxMnxN7qQ" uri="capabilitypatterns/Elaboracion/model.xmi"/>
@@ -29,6 +30,7 @@
     <resourceDescriptors xmi:id="_ByX1ggAuEeK2F4TMwJDD2g" id="-i9uKv9Mi9PIGkU0WHyzUdQ" uri="tasks/generar_capa_acceso_datos_framework.xmi"/>
     <resourceDescriptors xmi:id="_P34-sAAuEeK2F4TMwJDD2g" id="-Aus4ed1jiqzBj-rKR00sTQ" uri="tasks/crear_ant_generacion_librerias.xmi"/>
     <resourceDescriptors xmi:id="_O7gw0ABAEeK2F4TMwJDD2g" id="-vdfTy0QU-Khqt1WQJYpIYA" uri="tasks/controlar_repositorio_nightbuild.xmi"/>
+    <resourceDescriptors xmi:id="_D-J8UwBJEeK2F4TMwJDD2g" id="_D-J8UABJEeK2F4TMwJDD2g" uri="capabilitypatterns/DiagramaGeneral/model.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_F34swPm0EeGw0sux5RQ_6A" name="MetodologiaDesarrollo" guid="_F34swPm0EeGw0sux5RQ_6A" briefDescription="Describe la metodologia de desarrollo con que se produce&#xD;&#xA;software en la compañia lucasian labs" authors="Alvaro Jose Peralta" changeDate="2012-09-08T08:52:58.114-0400" version="2.0">
     <methodElementProperty xmi:id="_F4dUg_m0EeGw0sux5RQ_6A" name="plugin_synFree" value="true"/>
@@ -205,6 +207,7 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_7iSEkPtYEeGqXdxMnxN7qQ" href="uma://_7iSEkPtYEeGqXdxMnxN7qQ#_7iSEkPtYEeGqXdxMnxN7qQ"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_-UHTAPtYEeGqXdxMnxN7qQ" href="uma://_-UHTAPtYEeGqXdxMnxN7qQ#_-UHTAPtYEeGqXdxMnxN7qQ"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_HvFhAAAtEeK2F4TMwJDD2g" href="uma://_HvFhAAAtEeK2F4TMwJDD2g#_HvFhAAAtEeK2F4TMwJDD2g"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_D-J8UABJEeK2F4TMwJDD2g" href="uma://_D-J8UABJEeK2F4TMwJDD2g#_D-J8UABJEeK2F4TMwJDD2g"/>
       </childPackages>
     </methodPackages>
     <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_F34szvm0EeGw0sux5RQ_6A" name="DeliveryProcesses" guid="_F34szvm0EeGw0sux5RQ_6A">

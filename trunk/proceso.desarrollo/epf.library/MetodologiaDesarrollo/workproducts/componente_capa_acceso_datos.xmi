@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-3yPy1IOwcV1uHCf9l03dEA" name="new_artifact,_aWzj4ABKEeK2F4TMwJDD2g" guid="-3yPy1IOwcV1uHCf9l03dEA" changeDate="2012-09-16T19:04:37.852-0400">
+  <mainDescription>Capa de Acceso de Datos generada por el Framework de la Empresa.</mainDescription>
+</org.eclipse.epf.uma:ArtifactDescription>

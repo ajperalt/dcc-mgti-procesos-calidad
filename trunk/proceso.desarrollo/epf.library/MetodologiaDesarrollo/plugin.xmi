@@ -13,6 +13,7 @@
     <resourceDescriptors xmi:id="_-UHTA_tYEeGqXdxMnxN7qQ" id="_-UHTAPtYEeGqXdxMnxN7qQ" uri="capabilitypatterns/Transicion/model.xmi"/>
     <resourceDescriptors xmi:id="_MhQT4vtpEeGqXdxMnxN7qQ" id="-dUNHoBYMHvJSPzRUpwxVtQ" uri="tasks/firma_acta_inicio.xmi"/>
     <resourceDescriptors xmi:id="_iIG6oQAWEeK2F4TMwJDD2g" id="-QPkaFk47EXT-Fg27Ze2CWg" uri="tasks/desarrollar_interfaces_comunicaciones.xmi"/>
+    <resourceDescriptors xmi:id="_7KDbgQAeEeK2F4TMwJDD2g" id="-i6RYbRfhqSS_hnWNohbAFA" uri="workproducts/perfiles_seguridad_restricciones.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_F34swPm0EeGw0sux5RQ_6A" name="MetodologiaDesarrollo" guid="_F34swPm0EeGw0sux5RQ_6A" briefDescription="Describe la metodologia de desarrollo con que se produce&#xD;&#xA;software en la compañia lucasian labs" authors="Alvaro Jose Peralta" changeDate="2012-09-08T08:52:58.114-0400" version="2.0">
     <methodElementProperty xmi:id="_F4dUg_m0EeGw0sux5RQ_6A" name="plugin_synFree" value="true"/>
@@ -89,11 +90,42 @@
             <methodElementProperty xmi:id="_1fm60AAWEeK2F4TMwJDD2g" name="me_edited" value="true"/>
             <presentation xmi:id="-QPkaFk47EXT-Fg27Ze2CWg" href="uma://-QPkaFk47EXT-Fg27Ze2CWg#-QPkaFk47EXT-Fg27Ze2CWg"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_iHhEwAAWEeK2F4TMwJDD2g" name="srs" guid="_iHhEwAAWEeK2F4TMwJDD2g" presentationName="Especificación de Requerimientos de Software (SRS)">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_iHhEwAAWEeK2F4TMwJDD2g" name="srs" guid="_iHhEwAAWEeK2F4TMwJDD2g" presentationName="Especificación de Requerimientos de Software (SRS)" briefDescription="Descripción completa del comportamiento del sistema por desarrollar.">
             <methodElementProperty xmi:id="_rVMVQAAWEeK2F4TMwJDD2g" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_oZs0gAAWEeK2F4TMwJDD2g" name="modelo_diseño" guid="_oZs0gAAWEeK2F4TMwJDD2g" presentationName="Modelo de Diseño">
             <methodElementProperty xmi:id="_qenSkAAWEeK2F4TMwJDD2g" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_WN1nYAAeEeK2F4TMwJDD2g" name="perfiles_seguridad_restricciones" guid="_WN1nYAAeEeK2F4TMwJDD2g" presentationName="Perfiles de Seguridad y Restricciones" briefDescription="Documento que describe las opciones del sistema, las acciones que contiene cada una, los roles que pueden acceder y los que deben estar restringidos.&#xD;&#xA;">
+            <methodElementProperty xmi:id="_7J6RkAAeEeK2F4TMwJDD2g" name="me_edited" value="true"/>
+            <presentation xmi:id="-i6RYbRfhqSS_hnWNohbAFA" href="uma://-i6RYbRfhqSS_hnWNohbAFA#-i6RYbRfhqSS_hnWNohbAFA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_XyTOUAAfEeK2F4TMwJDD2g" name="aprobacion_arquitecto" guid="_XyTOUAAfEeK2F4TMwJDD2g" presentationName="Aprobación del Arquitecto" briefDescription="Documento que indica la aprobación del Arquitecto con respecto a la revisión de la especificación técnica previo al desarrollo.">
+            <methodElementProperty xmi:id="_UPh1sAAgEeK2F4TMwJDD2g" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_mKc_oAAfEeK2F4TMwJDD2g" name="mock_up_interfaces" guid="_mKc_oAAfEeK2F4TMwJDD2g" presentationName="Mock-up de las interfaces de usuario" briefDescription="Visualiza un maqueta de las interfaces de usuario.&#xD;&#xA;">
+            <methodElementProperty xmi:id="_vuvZUAAfEeK2F4TMwJDD2g" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_wyPdsAAfEeK2F4TMwJDD2g" name="jsp_ejb_bean" guid="_wyPdsAAfEeK2F4TMwJDD2g" presentationName="JSP, BackEndBean, EJB y Manager Generados" briefDescription="Código generado con la herramienta Leaf.">
+            <methodElementProperty xmi:id="__he5UAAfEeK2F4TMwJDD2g" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_A_ERoAAgEeK2F4TMwJDD2g" name="javadoc" guid="_A_ERoAAgEeK2F4TMwJDD2g" presentationName="JavaDoc" briefDescription="Archivo javadoc genera a partir de la documentación en el código fuente.">
+            <methodElementProperty xmi:id="_FrxRUAAgEeK2F4TMwJDD2g" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_GsvmIAAgEeK2F4TMwJDD2g" name="certificacion_revision_codigo" guid="_GsvmIAAgEeK2F4TMwJDD2g" presentationName="Certificación de la Revisión del Código" briefDescription="Certificación proporcionada después de validar el código en contraste con la especificación.">
+            <methodElementProperty xmi:id="_KmxywAAgEeK2F4TMwJDD2g" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_VOVAQAAgEeK2F4TMwJDD2g" name="registro_errores_codigo" guid="_VOVAQAAgEeK2F4TMwJDD2g" presentationName="Registro de Errores de Código." briefDescription="Resultado de la revisión del código. Visualiza un listado de los errores encontrados en el código.">
+            <methodElementProperty xmi:id="_crBbUAAgEeK2F4TMwJDD2g" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_eMZugAAgEeK2F4TMwJDD2g" name="listado_casos_prueba" guid="_eMZugAAgEeK2F4TMwJDD2g" presentationName="Listado de Casos de Prueba" briefDescription="Listado de Casos de Prueba.">
+            <methodElementProperty xmi:id="_lEu4QAAgEeK2F4TMwJDD2g" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_lw1wUAAgEeK2F4TMwJDD2g" name="registro_errores_pruebas" guid="_lw1wUAAgEeK2F4TMwJDD2g" presentationName="Registro de errores presentados durante las pruebas unitarias." briefDescription="Registro de errores presentados durante las pruebas unitarias.&#xD;&#xA;">
+            <methodElementProperty xmi:id="_vi_m4AAgEeK2F4TMwJDD2g" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_w3U8kAAgEeK2F4TMwJDD2g" name="resultado_pruebas_stress" guid="_w3U8kAAgEeK2F4TMwJDD2g" presentationName="Resultado de las pruebas de Stress" briefDescription="Resultado de las pruebas de Stress.">
+            <methodElementProperty xmi:id="_11xMgAAgEeK2F4TMwJDD2g" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
       </childPackages>

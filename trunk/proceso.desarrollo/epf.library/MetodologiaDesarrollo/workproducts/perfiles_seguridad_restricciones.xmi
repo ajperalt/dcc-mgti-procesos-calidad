@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-i6RYbRfhqSS_hnWNohbAFA" name="new_artifact,_WN1nYAAeEeK2F4TMwJDD2g" guid="-i6RYbRfhqSS_hnWNohbAFA" changeDate="2012-09-16T13:49:33.493-0400">
+  <mainDescription>&lt;p>&#xD;
+    Documento que describe las opciones del sistema, las acciones que contiene cada una, los roles que pueden acceder y los&#xD;
+    que deben estar restringidos.&#xD;
+&lt;/p></mainDescription>
+  <purpose>Definir los aspectos de seguridad y restricciones del componente.</purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

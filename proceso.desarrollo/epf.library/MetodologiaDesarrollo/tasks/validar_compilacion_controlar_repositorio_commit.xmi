@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-6sm00-uSwyHypQ3iXZsmUA" name=",_YbLkgAAlEeK2F4TMwJDD2g" guid="-6sm00-uSwyHypQ3iXZsmUA">
+  <mainDescription>Verificar la correcta compilación del código. Si la compilación fue exitosa se actualiza el repositorio por medio de un&#xD;
+Commit. No se debe actualizar código que no compile adecuadamente.</mainDescription>
+</org.eclipse.epf.uma:TaskDescription>

@@ -195,7 +195,7 @@
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_pVKMowAVEeK2F4TMwJDD2g"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_pVKMpAAVEeK2F4TMwJDD2g"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_pVKMpQAVEeK2F4TMwJDD2g" lineColor="0"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pVKMpgAVEeK2F4TMwJDD2g" x="336" y="1104" width="25" height="25"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pVKMpgAVEeK2F4TMwJDD2g" x="324" y="1104" width="25" height="25"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_j3-tEAAnEeK2F4TMwJDD2g" visible="false" type="1009" element="_5KkwsAAWEeK2F4TMwJDD2g">
       <children xmi:type="notation:Node" xmi:id="_j3-tFgAnEeK2F4TMwJDD2g" type="4008"/>

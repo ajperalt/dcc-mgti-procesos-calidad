@@ -6,6 +6,7 @@
     <subManagers xmi:id="_-lS_EftXEeGqXdxMnxN7qQ" href="uma://_-kuXUPtXEeGqXdxMnxN7qQ#_-lS_EftXEeGqXdxMnxN7qQ"/>
     <subManagers xmi:id="_7iqfEftYEeGqXdxMnxN7qQ" href="uma://_7iSEkPtYEeGqXdxMnxN7qQ#_7iqfEftYEeGqXdxMnxN7qQ"/>
     <subManagers xmi:id="_-Ul0IftYEeGqXdxMnxN7qQ" href="uma://_-UHTAPtYEeGqXdxMnxN7qQ#_-Ul0IftYEeGqXdxMnxN7qQ"/>
+    <subManagers xmi:id="_Hz2sQAAtEeK2F4TMwJDD2g" href="uma://_HvFhAAAtEeK2F4TMwJDD2g#_Hz2sQAAtEeK2F4TMwJDD2g"/>
     <resourceDescriptors xmi:id="_VSePIfrrEeGw0sux5RQ_6A" id="_VSYIgPrrEeGw0sux5RQ_6A" uri="deliveryprocesses/lucasian.labs.metodologia.desarrollo/model.xmi"/>
     <resourceDescriptors xmi:id="_7q31U_tXEeGqXdxMnxN7qQ" id="_7q31UPtXEeGqXdxMnxN7qQ" uri="capabilitypatterns/Concepcion/model.xmi"/>
     <resourceDescriptors xmi:id="_-kuXU_tXEeGqXdxMnxN7qQ" id="_-kuXUPtXEeGqXdxMnxN7qQ" uri="capabilitypatterns/Elaboracion/model.xmi"/>
@@ -24,6 +25,10 @@
     <resourceDescriptors xmi:id="_6TwBcAAlEeK2F4TMwJDD2g" id="-vM8pIjQEXoSALTqznlGrxA" uri="tasks/actualizar_ant_generacion_agendar_nightbuild.xmi"/>
     <resourceDescriptors xmi:id="_hgRrUAAmEeK2F4TMwJDD2g" id="-OnOScHnOPdqYDxRb6R0WDw" uri="tasks/codificar_servicios_negocio.xmi"/>
     <resourceDescriptors xmi:id="_4vwCoQAmEeK2F4TMwJDD2g" id="-VByv-I_QQoT9_P6zeo9OnQ" uri="tasks/pruebas_carga_segun_necesidad.xmi"/>
+    <resourceDescriptors xmi:id="_HvrW4AAtEeK2F4TMwJDD2g" id="_HvFhAAAtEeK2F4TMwJDD2g" uri="capabilitypatterns/ConstruccionAccesoDatos/model.xmi"/>
+    <resourceDescriptors xmi:id="_ByX1ggAuEeK2F4TMwJDD2g" id="-i9uKv9Mi9PIGkU0WHyzUdQ" uri="tasks/generar_capa_acceso_datos_framework.xmi"/>
+    <resourceDescriptors xmi:id="_P34-sAAuEeK2F4TMwJDD2g" id="-Aus4ed1jiqzBj-rKR00sTQ" uri="tasks/crear_ant_generacion_librerias.xmi"/>
+    <resourceDescriptors xmi:id="_O7gw0ABAEeK2F4TMwJDD2g" id="-vdfTy0QU-Khqt1WQJYpIYA" uri="tasks/controlar_repositorio_nightbuild.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_F34swPm0EeGw0sux5RQ_6A" name="MetodologiaDesarrollo" guid="_F34swPm0EeGw0sux5RQ_6A" briefDescription="Describe la metodologia de desarrollo con que se produce&#xD;&#xA;software en la compañia lucasian labs" authors="Alvaro Jose Peralta" changeDate="2012-09-08T08:52:58.114-0400" version="2.0">
     <methodElementProperty xmi:id="_F4dUg_m0EeGw0sux5RQ_6A" name="plugin_synFree" value="true"/>
@@ -177,6 +182,21 @@
             <methodElementProperty xmi:id="_6TmQcAAlEeK2F4TMwJDD2g" name="me_edited" value="true"/>
             <presentation xmi:id="-vM8pIjQEXoSALTqznlGrxA" href="uma://-vM8pIjQEXoSALTqznlGrxA#-vM8pIjQEXoSALTqznlGrxA"/>
           </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_LueHsAAtEeK2F4TMwJDD2g" name="crear_proyecto_eclipse_acceso_datos_unico_sistema" guid="_LueHsAAtEeK2F4TMwJDD2g" presentationName="Crear Proyecto Eclipse de Acceso de Datos Único para el Sistema" briefDescription="Creación del proyecto que servirá de contenedor para la capa de acceso de datos del sistema.">
+            <methodElementProperty xmi:id="_2W4CkAAtEeK2F4TMwJDD2g" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_2_GgMAAtEeK2F4TMwJDD2g" name="generar_capa_acceso_datos_framework" guid="_2_GgMAAtEeK2F4TMwJDD2g" presentationName="Generar Capa de Acceso de datos con el Framework" briefDescription="Generación automática de los componentes de la capa de acceso de datos mediante el uso del Framework de la empresa.">
+            <methodElementProperty xmi:id="_ByX1gAAuEeK2F4TMwJDD2g" name="me_edited" value="true"/>
+            <presentation xmi:id="-i9uKv9Mi9PIGkU0WHyzUdQ" href="uma://-i9uKv9Mi9PIGkU0WHyzUdQ#-i9uKv9Mi9PIGkU0WHyzUdQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_FF0jQAAuEeK2F4TMwJDD2g" name="crear_ant_generacion_librerias" guid="_FF0jQAAuEeK2F4TMwJDD2g" presentationName="Crear Ant para la Generación de Librerías." briefDescription="Creación del archivo de configuración (Ant) para la inclusión del proyecto como librería del sistema.">
+            <methodElementProperty xmi:id="_P3mDwAAuEeK2F4TMwJDD2g" name="me_edited" value="true"/>
+            <presentation xmi:id="-Aus4ed1jiqzBj-rKR00sTQ" href="uma://-Aus4ed1jiqzBj-rKR00sTQ#-Aus4ed1jiqzBj-rKR00sTQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_47DxYAA_EeK2F4TMwJDD2g" name="controlar_repositorio_nightbuild" guid="_47DxYAA_EeK2F4TMwJDD2g" presentationName="Controlar en Repositorio Agendar NightBuild" briefDescription="Check-in de la capa de acceso de datos al repositorio; además inclusión del proyecto en los programas automáticos de construcción e integración nocturnos.">
+            <methodElementProperty xmi:id="_O7W_0ABAEeK2F4TMwJDD2g" name="me_edited" value="true"/>
+            <presentation xmi:id="-vdfTy0QU-Khqt1WQJYpIYA" href="uma://-vdfTy0QU-Khqt1WQJYpIYA#-vdfTy0QU-Khqt1WQJYpIYA"/>
+          </contentElements>
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_F34szfm0EeGw0sux5RQ_6A" name="CapabilityPatterns" guid="_F34szfm0EeGw0sux5RQ_6A">
@@ -184,6 +204,7 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_-kuXUPtXEeGqXdxMnxN7qQ" href="uma://_-kuXUPtXEeGqXdxMnxN7qQ#_-kuXUPtXEeGqXdxMnxN7qQ"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_7iSEkPtYEeGqXdxMnxN7qQ" href="uma://_7iSEkPtYEeGqXdxMnxN7qQ#_7iSEkPtYEeGqXdxMnxN7qQ"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_-UHTAPtYEeGqXdxMnxN7qQ" href="uma://_-UHTAPtYEeGqXdxMnxN7qQ#_-UHTAPtYEeGqXdxMnxN7qQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_HvFhAAAtEeK2F4TMwJDD2g" href="uma://_HvFhAAAtEeK2F4TMwJDD2g#_HvFhAAAtEeK2F4TMwJDD2g"/>
       </childPackages>
     </methodPackages>
     <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_F34szvm0EeGw0sux5RQ_6A" name="DeliveryProcesses" guid="_F34szvm0EeGw0sux5RQ_6A">

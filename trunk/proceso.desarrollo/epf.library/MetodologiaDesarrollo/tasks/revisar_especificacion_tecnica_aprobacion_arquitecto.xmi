@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-rrG3IGLF7NZV1svmCpmR1g" name=",_8PbAwAAhEeK2F4TMwJDD2g" guid="-rrG3IGLF7NZV1svmCpmR1g" authors="Marel" changeDate="2012-09-16T14:17:38.147-0400">
+  <mainDescription>El arquitecto revisa la correcta especificación técnica del proyecto creado. Si las especificaciones técnicas son&#xD;
+cumplidas, el arquitecto aprueba el inicio del desarrollo.</mainDescription>
+</org.eclipse.epf.uma:TaskDescription>

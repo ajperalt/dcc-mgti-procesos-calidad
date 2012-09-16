@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-kA6wuJ6RjynxlprE9RQKQQ" name=",_b1NiwAAiEeK2F4TMwJDD2g" guid="-kA6wuJ6RjynxlprE9RQKQQ" changeDate="2012-09-16T14:19:17.804-0400">
+  <mainDescription>La capa de presentación es creada de acuerdo a la información proveniente de la capa de acceso de datos.</mainDescription>
+</org.eclipse.epf.uma:TaskDescription>

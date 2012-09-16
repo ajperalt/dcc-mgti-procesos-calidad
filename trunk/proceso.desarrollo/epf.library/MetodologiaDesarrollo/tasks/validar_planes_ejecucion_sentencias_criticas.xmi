@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-0YvVQ3lZYk3VzJ1p-GB-nA" name=",_wetrcAAkEeK2F4TMwJDD2g" guid="-0YvVQ3lZYk3VzJ1p-GB-nA">
+  <mainDescription>Validación previa a la ejecución de las pruebas a los componentes críticos del sistema.</mainDescription>
+</org.eclipse.epf.uma:TaskDescription>

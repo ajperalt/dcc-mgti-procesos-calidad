@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-8uW9hU1xH2ffZwJaeuFEvA" name="ConstruccionAccesoDatos,_HvFhAQAtEeK2F4TMwJDD2g" guid="-8uW9hU1xH2ffZwJaeuFEvA"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-65sHncs56GkAf0QkTFYl3A" name="generar_capa_acceso_datos_framework,_XXTRYABAEeK2F4TMwJDD2g" guid="-65sHncs56GkAf0QkTFYl3A">
+    <refinedDescription>Generación automática de los componentes de la capa de acceso de datos mediante el uso del Framework de la empresa.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-lPFKIRiXl_IOWGec_Z2lQA" name="crear_ant_generacion_librerias,_YPoAgABAEeK2F4TMwJDD2g" guid="-lPFKIRiXl_IOWGec_Z2lQA">
+    <refinedDescription>Creación del archivo de configuración (Ant) para la inclusión del proyecto como librería del sistema.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Kl2Z_a3GBgvD8I7cGa7YQw" name="controlar_repositorio_nightbuild,_Y8efcABAEeK2F4TMwJDD2g" guid="-Kl2Z_a3GBgvD8I7cGa7YQw">
+    <refinedDescription>Check-in de la capa de acceso de datos al repositorio; además inclusión del proyecto en los programas automáticos de&#xD;
+construcción e integración nocturnos.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_Hz2sQAAtEeK2F4TMwJDD2g" guid="_Hz2sQAAtEeK2F4TMwJDD2g">
+    <resourceDescriptors xmi:id="_Hz2sQQAtEeK2F4TMwJDD2g" id="-8uW9hU1xH2ffZwJaeuFEvA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_JYqW0QBBEeK2F4TMwJDD2g" id="-65sHncs56GkAf0QkTFYl3A" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_JYqW0gBBEeK2F4TMwJDD2g" id="-lPFKIRiXl_IOWGec_Z2lQA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_JYqW0wBBEeK2F4TMwJDD2g" id="-Kl2Z_a3GBgvD8I7cGa7YQw" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_HvFhAAAtEeK2F4TMwJDD2g" name="ConstruccionAccesoDatos" guid="_HvFhAAAtEeK2F4TMwJDD2g">
+    <methodElementProperty xmi:id="_JYgl0ABBEeK2F4TMwJDD2g" name="me_edited" value="true"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Wgwq8ABAEeK2F4TMwJDD2g" name="crear_proyecto_eclipse_acceso_datos_unico_sistema" guid="_Wgwq8ABAEeK2F4TMwJDD2g" presentationName="Crear Proyecto Eclipse de Acceso de Datos Único para el Sistema" briefDescription="Creación del proyecto que servirá de contenedor para la capa de acceso de datos del sistema." superActivities="_HvFhAQAtEeK2F4TMwJDD2g">
+      <methodElementProperty xmi:id="_Wgwq8QBAEeK2F4TMwJDD2g" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_F34swPm0EeGw0sux5RQ_6A#_LueHsAAtEeK2F4TMwJDD2g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_XXTRYABAEeK2F4TMwJDD2g" name="generar_capa_acceso_datos_framework" guid="_XXTRYABAEeK2F4TMwJDD2g" presentationName="Generar Capa de Acceso de datos mediante el Framework" briefDescription="Generación automática de los componentes de la capa de acceso de datos mediante el uso del Framework de la empresa." superActivities="_HvFhAQAtEeK2F4TMwJDD2g" linkToPredecessor="_TQBdgQBBEeK2F4TMwJDD2g" isSynchronizedWithSource="false">
+      <methodElementProperty xmi:id="_XXTRYQBAEeK2F4TMwJDD2g" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-65sHncs56GkAf0QkTFYl3A" href="uma://-8uW9hU1xH2ffZwJaeuFEvA#-65sHncs56GkAf0QkTFYl3A"/>
+      <Task href="uma://_F34swPm0EeGw0sux5RQ_6A#_2_GgMAAtEeK2F4TMwJDD2g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_YPoAgABAEeK2F4TMwJDD2g" name="crear_ant_generacion_librerias" guid="_YPoAgABAEeK2F4TMwJDD2g" presentationName="Crear Ant para la Generación de Librerías." briefDescription="Creación del archivo de configuración (Ant) para la inclusión del proyecto como librería del sistema." superActivities="_HvFhAQAtEeK2F4TMwJDD2g" linkToPredecessor="_WD4sQQBBEeK2F4TMwJDD2g">
+      <methodElementProperty xmi:id="_YPxKcABAEeK2F4TMwJDD2g" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-lPFKIRiXl_IOWGec_Z2lQA" href="uma://-8uW9hU1xH2ffZwJaeuFEvA#-lPFKIRiXl_IOWGec_Z2lQA"/>
+      <Task href="uma://_F34swPm0EeGw0sux5RQ_6A#_FF0jQAAuEeK2F4TMwJDD2g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Y8efcABAEeK2F4TMwJDD2g" name="controlar_repositorio_nightbuild" guid="_Y8efcABAEeK2F4TMwJDD2g" presentationName="Controlar en Repositorio Agendar NightBuild" briefDescription="Check-in de la capa de acceso de datos al repositorio; además inclusión del proyecto en los programas automáticos de construcción e integración nocturnos." superActivities="_HvFhAQAtEeK2F4TMwJDD2g" linkToPredecessor="_Z4j3wQBBEeK2F4TMwJDD2g">
+      <methodElementProperty xmi:id="_Y8oQcABAEeK2F4TMwJDD2g" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-Kl2Z_a3GBgvD8I7cGa7YQw" href="uma://-8uW9hU1xH2ffZwJaeuFEvA#-Kl2Z_a3GBgvD8I7cGa7YQw"/>
+      <Task href="uma://_F34swPm0EeGw0sux5RQ_6A#_47DxYAA_EeK2F4TMwJDD2g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_TQBdgQBBEeK2F4TMwJDD2g" guid="_TQBdgQBBEeK2F4TMwJDD2g" pred="_Wgwq8ABAEeK2F4TMwJDD2g"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_WD4sQQBBEeK2F4TMwJDD2g" guid="_WD4sQQBBEeK2F4TMwJDD2g" pred="_XXTRYABAEeK2F4TMwJDD2g"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_Z4j3wQBBEeK2F4TMwJDD2g" guid="_Z4j3wQBBEeK2F4TMwJDD2g" pred="_YPoAgABAEeK2F4TMwJDD2g"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_HvFhAQAtEeK2F4TMwJDD2g" name="ConstruccionAccesoDatos" guid="_HvFhAQAtEeK2F4TMwJDD2g" presentationName="ConstruccionAccesoDatos" breakdownElements="_Wgwq8ABAEeK2F4TMwJDD2g _XXTRYABAEeK2F4TMwJDD2g _YPoAgABAEeK2F4TMwJDD2g _Y8efcABAEeK2F4TMwJDD2g">
+      <presentation xmi:id="-8uW9hU1xH2ffZwJaeuFEvA" href="uma://-8uW9hU1xH2ffZwJaeuFEvA#-8uW9hU1xH2ffZwJaeuFEvA"/>
+      <defaultContext href="uma://_pYXM0fkeEeGFTJgG8flRpQ#_NQLMoPrrEeGw0sux5RQ_6A"/>
+      <validContext href="uma://_pYXM0fkeEeGFTJgG8flRpQ#_NQLMoPrrEeGw0sux5RQ_6A"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

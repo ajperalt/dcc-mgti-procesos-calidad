@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-vdfTy0QU-Khqt1WQJYpIYA" name=",_47DxYAA_EeK2F4TMwJDD2g" guid="-vdfTy0QU-Khqt1WQJYpIYA">
+  <mainDescription>Check-in de la capa de acceso de datos al repositorio; además inclusión del proyecto en los programas automáticos de&#xD;
+construcción e integración nocturnos.</mainDescription>
+</org.eclipse.epf.uma:TaskDescription>

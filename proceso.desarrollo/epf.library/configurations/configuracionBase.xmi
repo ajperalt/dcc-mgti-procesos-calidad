@@ -27,4 +27,5 @@
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="uma://_F34swPm0EeGw0sux5RQ_6A#_2u90oPtaEeGqXdxMnxN7qQ"/>
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="uma://_F34swPm0EeGw0sux5RQ_6A#_48sQcPtaEeGqXdxMnxN7qQ"/>
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="uma://_F34swPm0EeGw0sux5RQ_6A#_7DvcgPtaEeGqXdxMnxN7qQ"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="uma://_HvFhAAAtEeK2F4TMwJDD2g#_HvFhAAAtEeK2F4TMwJDD2g"/>
 </org.eclipse.epf.uma:MethodConfiguration>

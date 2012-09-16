@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-QPkaFk47EXT-Fg27Ze2CWg" name=",_KQch8AAWEeK2F4TMwJDD2g" guid="-QPkaFk47EXT-Fg27Ze2CWg" changeDate="2012-09-16T12:51:16.230-0400">
+  <mainDescription>&lt;p>&#xD;
+    En caso de que sea necesario, se implementan interfaces y comunicaciones entre sistemas. Esta implementación es&#xD;
+    requerida cuando existe la necesidad de crear componentes que permitan comunicar sistemas distintos o dispositivos&#xD;
+    especiales. Se debe tener en cuenta las restricciones que se pudieren presentar durante la etapa de diseño.&#xD;
+&lt;/p></mainDescription>
+  <purpose>&lt;font size=&quot;2&quot; face=&quot;ArialMT&quot;>&lt;font size=&quot;2&quot; face=&quot;ArialMT&quot;>&lt;br />&#xD;
+&lt;/font>&lt;/font></purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -12,8 +12,9 @@
     <resourceDescriptors xmi:id="_7iSEk_tYEeGqXdxMnxN7qQ" id="_7iSEkPtYEeGqXdxMnxN7qQ" uri="capabilitypatterns/Construccion/model.xmi"/>
     <resourceDescriptors xmi:id="_-UHTA_tYEeGqXdxMnxN7qQ" id="_-UHTAPtYEeGqXdxMnxN7qQ" uri="capabilitypatterns/Transicion/model.xmi"/>
     <resourceDescriptors xmi:id="_MhQT4vtpEeGqXdxMnxN7qQ" id="-dUNHoBYMHvJSPzRUpwxVtQ" uri="tasks/firma_acta_inicio.xmi"/>
+    <resourceDescriptors xmi:id="_iIG6oQAWEeK2F4TMwJDD2g" id="-QPkaFk47EXT-Fg27Ze2CWg" uri="tasks/desarrollar_interfaces_comunicaciones.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
-  <org.eclipse.epf.uma:MethodPlugin xmi:id="_F34swPm0EeGw0sux5RQ_6A" name="MetodologiaDesarrollo" guid="_F34swPm0EeGw0sux5RQ_6A" briefDescription="Describe la metodologia de desarrollo con que se produce&#xD;&#xA;software en la compañia lucasian labs" authors="Alvaro Jose Peralta" changeDate="2012-09-08T09:52:58.114-0300" version="2.0">
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_F34swPm0EeGw0sux5RQ_6A" name="MetodologiaDesarrollo" guid="_F34swPm0EeGw0sux5RQ_6A" briefDescription="Describe la metodologia de desarrollo con que se produce&#xD;&#xA;software en la compañia lucasian labs" authors="Alvaro Jose Peralta" changeDate="2012-09-08T08:52:58.114-0400" version="2.0">
     <methodElementProperty xmi:id="_F4dUg_m0EeGw0sux5RQ_6A" name="plugin_synFree" value="true"/>
     <methodElementProperty xmi:id="_HjhIIPm0EeGw0sux5RQ_6A" name="me_edited" value="true"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_F34swfm0EeGw0sux5RQ_6A" name="Content" guid="_F34swfm0EeGw0sux5RQ_6A">
@@ -83,6 +84,16 @@
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_0yO4wPnGEeGw0sux5RQ_6A" name="Ingeniero en calidad" guid="_0yO4wPnGEeGw0sux5RQ_6A" presentationName="QA">
             <methodElementProperty xmi:id="_HKRnEPnHEeGw0sux5RQ_6A" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_KQch8AAWEeK2F4TMwJDD2g" name="desarrollar_interfaces_comunicaciones" guid="_KQch8AAWEeK2F4TMwJDD2g" presentationName="Desarrollar Interfaces y Comunicaciones" performedBy="_zdCncPnGEeGw0sux5RQ_6A" mandatoryInput="_oZs0gAAWEeK2F4TMwJDD2g _iHhEwAAWEeK2F4TMwJDD2g">
+            <methodElementProperty xmi:id="_1fm60AAWEeK2F4TMwJDD2g" name="me_edited" value="true"/>
+            <presentation xmi:id="-QPkaFk47EXT-Fg27Ze2CWg" href="uma://-QPkaFk47EXT-Fg27Ze2CWg#-QPkaFk47EXT-Fg27Ze2CWg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_iHhEwAAWEeK2F4TMwJDD2g" name="srs" guid="_iHhEwAAWEeK2F4TMwJDD2g" presentationName="Especificación de Requerimientos de Software (SRS)">
+            <methodElementProperty xmi:id="_rVMVQAAWEeK2F4TMwJDD2g" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_oZs0gAAWEeK2F4TMwJDD2g" name="modelo_diseño" guid="_oZs0gAAWEeK2F4TMwJDD2g" presentationName="Modelo de Diseño">
+            <methodElementProperty xmi:id="_qenSkAAWEeK2F4TMwJDD2g" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
       </childPackages>

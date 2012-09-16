@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-VByv-I_QQoT9_P6zeo9OnQ" name=",_LerR0AAlEeK2F4TMwJDD2g" guid="-VByv-I_QQoT9_P6zeo9OnQ">
+  <mainDescription>Ejecución de las pruebas de carga según el contexto y la necesidad del componente de negocio.</mainDescription>
+</org.eclipse.epf.uma:TaskDescription>

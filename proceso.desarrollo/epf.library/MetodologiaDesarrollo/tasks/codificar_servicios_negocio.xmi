@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-OnOScHnOPdqYDxRb6R0WDw" name=",_ubqggAAiEeK2F4TMwJDD2g" guid="-OnOScHnOPdqYDxRb6R0WDw">
+  <mainDescription>Codificación y desarrollo de los servicios de negocio (contiene la lógica de negocio de la aplicación)</mainDescription>
+</org.eclipse.epf.uma:TaskDescription>

@@ -22,6 +22,8 @@
     <resourceDescriptors xmi:id="_KeTZ8AAlEeK2F4TMwJDD2g" id="-0YvVQ3lZYk3VzJ1p-GB-nA" uri="tasks/validar_planes_ejecucion_sentencias_criticas.xmi"/>
     <resourceDescriptors xmi:id="_qRp20AAlEeK2F4TMwJDD2g" id="-6sm00-uSwyHypQ3iXZsmUA" uri="tasks/validar_compilacion_controlar_repositorio_commit.xmi"/>
     <resourceDescriptors xmi:id="_6TwBcAAlEeK2F4TMwJDD2g" id="-vM8pIjQEXoSALTqznlGrxA" uri="tasks/actualizar_ant_generacion_agendar_nightbuild.xmi"/>
+    <resourceDescriptors xmi:id="_hgRrUAAmEeK2F4TMwJDD2g" id="-OnOScHnOPdqYDxRb6R0WDw" uri="tasks/codificar_servicios_negocio.xmi"/>
+    <resourceDescriptors xmi:id="_4vwCoQAmEeK2F4TMwJDD2g" id="-VByv-I_QQoT9_P6zeo9OnQ" uri="tasks/pruebas_carga_segun_necesidad.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_F34swPm0EeGw0sux5RQ_6A" name="MetodologiaDesarrollo" guid="_F34swPm0EeGw0sux5RQ_6A" briefDescription="Describe la metodologia de desarrollo con que se produce&#xD;&#xA;software en la compañia lucasian labs" authors="Alvaro Jose Peralta" changeDate="2012-09-08T08:52:58.114-0400" version="2.0">
     <methodElementProperty xmi:id="_F4dUg_m0EeGw0sux5RQ_6A" name="plugin_synFree" value="true"/>
@@ -139,22 +141,23 @@
             <methodElementProperty xmi:id="_5uMaIAAhEeK2F4TMwJDD2g" name="me_edited" value="true"/>
             <presentation xmi:id="-OLH5XTPbcnmSniEAn1P_jQ" href="uma://-OLH5XTPbcnmSniEAn1P_jQ#-OLH5XTPbcnmSniEAn1P_jQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_8PbAwAAhEeK2F4TMwJDD2g" name="revisar_especificacion_tecnica_aprobacion_arquitecto" guid="_8PbAwAAhEeK2F4TMwJDD2g" presentationName="Revisar Especificación Técnica y Aprobación del Arquitecto para Desarrollo" briefDescription="El arquitecto revisa la correcta especificación técnica del proyecto creado. Si las especificaciones técnicas son cumplidas, el arquitecto aprueba el inicio del desarrollo.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_8PbAwAAhEeK2F4TMwJDD2g" name="revisar_especificacion_tecnica_aprobacion_arquitecto" guid="_8PbAwAAhEeK2F4TMwJDD2g" presentationName="Revisar Especificación Técnica y Aprobación del Arquitecto para Desarrollo" briefDescription="El arquitecto revisa la correcta especificación técnica del proyecto creado. En caso de cumplir con las especificaciones se inicia con la codificación.">
             <methodElementProperty xmi:id="_bDvpkAAiEeK2F4TMwJDD2g" name="me_edited" value="true"/>
             <presentation xmi:id="-rrG3IGLF7NZV1svmCpmR1g" href="uma://-rrG3IGLF7NZV1svmCpmR1g#-rrG3IGLF7NZV1svmCpmR1g"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_b1NiwAAiEeK2F4TMwJDD2g" name="generar_presentacion_framework" guid="_b1NiwAAiEeK2F4TMwJDD2g" presentationName="Generar Capa de Presentación con el Framework." briefDescription="La capa de presentación es creada de acuerdo a la información proveniente de la capa de acceso de datos.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_b1NiwAAiEeK2F4TMwJDD2g" name="generar_presentacion_framework" guid="_b1NiwAAiEeK2F4TMwJDD2g" presentationName="Generar Capa de Presentación con el Framework." briefDescription="La capa de presentación es creada de acuerdo a la información proveniente de la capa de acceso de datos. La creación de la capa de presentación se hace con la ayuda del Framework de la empresa.">
             <methodElementProperty xmi:id="_qRFWcAAiEeK2F4TMwJDD2g" name="me_edited" value="true"/>
             <presentation xmi:id="-kA6wuJ6RjynxlprE9RQKQQ" href="uma://-kA6wuJ6RjynxlprE9RQKQQ#-kA6wuJ6RjynxlprE9RQKQQ"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ubqggAAiEeK2F4TMwJDD2g" name="codificar_servicios_negocio" guid="_ubqggAAiEeK2F4TMwJDD2g" presentationName="Codificar Servicios de Negocio" briefDescription="Codificación y desarrollo de los servicios de negocio (contiene la lógica de negocio de la aplicación)">
             <methodElementProperty xmi:id="_YBV9oAAkEeK2F4TMwJDD2g" name="me_edited" value="true"/>
+            <presentation xmi:id="-OnOScHnOPdqYDxRb6R0WDw" href="uma://-OnOScHnOPdqYDxRb6R0WDw#-OnOScHnOPdqYDxRb6R0WDw"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Y0AwsAAkEeK2F4TMwJDD2g" name="validar_codificacion_vs_especificacion" guid="_Y0AwsAAkEeK2F4TMwJDD2g" presentationName="Validar Codificación vs Especificación" briefDescription="Validación de la codificación de los componentes de negocio en contraste con el documento de especificación.">
             <methodElementProperty xmi:id="_mltmAAAkEeK2F4TMwJDD2g" name="me_edited" value="true"/>
             <presentation xmi:id="-t1EvqN6pkxnrDRifdn6daw" href="uma://-t1EvqN6pkxnrDRifdn6daw#-t1EvqN6pkxnrDRifdn6daw"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_nUNDsAAkEeK2F4TMwJDD2g" name="pruebas_unitarias_desarrollo" guid="_nUNDsAAkEeK2F4TMwJDD2g" presentationName="Pruebas Unitarias Desarrollo" briefDescription="Creación de las pruebas unitarias del código en base a la especificación de los contratos de código.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_nUNDsAAkEeK2F4TMwJDD2g" name="pruebas_unitarias_desarrollo" guid="_nUNDsAAkEeK2F4TMwJDD2g" presentationName="Pruebas Unitarias Desarrollo" briefDescription="Creación de las pruebas unitarias en base a la especificación de los contratos de código.">
             <methodElementProperty xmi:id="_vStyYAAkEeK2F4TMwJDD2g" name="me_edited" value="true"/>
             <presentation xmi:id="-wa0TlHQnLfFDySNfWRO3gw" href="uma://-wa0TlHQnLfFDySNfWRO3gw#-wa0TlHQnLfFDySNfWRO3gw"/>
           </contentElements>
@@ -162,8 +165,9 @@
             <methodElementProperty xmi:id="_KeJo8AAlEeK2F4TMwJDD2g" name="me_edited" value="true"/>
             <presentation xmi:id="-0YvVQ3lZYk3VzJ1p-GB-nA" href="uma://-0YvVQ3lZYk3VzJ1p-GB-nA#-0YvVQ3lZYk3VzJ1p-GB-nA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_LerR0AAlEeK2F4TMwJDD2g" name="pruebas_carga_segun_necesidad" guid="_LerR0AAlEeK2F4TMwJDD2g" presentationName="Pruebas Carga Según Necesidad" briefDescription="Ejecución de las pruebas de carga según el contexto del proyecto.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_LerR0AAlEeK2F4TMwJDD2g" name="pruebas_carga_segun_necesidad" guid="_LerR0AAlEeK2F4TMwJDD2g" presentationName="Pruebas Carga Según Necesidad" briefDescription="Ejecución de las pruebas de carga según el contexto y la necesidad del componente de negocio.">
             <methodElementProperty xmi:id="_RuBwAAAlEeK2F4TMwJDD2g" name="me_edited" value="true"/>
+            <presentation xmi:id="-VByv-I_QQoT9_P6zeo9OnQ" href="uma://-VByv-I_QQoT9_P6zeo9OnQ#-VByv-I_QQoT9_P6zeo9OnQ"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_YbLkgAAlEeK2F4TMwJDD2g" name="validar_compilacion_controlar_repositorio_commit" guid="_YbLkgAAlEeK2F4TMwJDD2g" presentationName="Validar Compilación Controlar en Respositorio Commit" briefDescription="Verificar la correcta compilación del código. Si la compilación fue exitosa se actualiza el repositorio por medio de un Commit. No se debe actualizar código que no compile adecuadamente.">
             <methodElementProperty xmi:id="_qRW74AAlEeK2F4TMwJDD2g" name="me_edited" value="true"/>
@@ -173,7 +177,6 @@
             <methodElementProperty xmi:id="_6TmQcAAlEeK2F4TMwJDD2g" name="me_edited" value="true"/>
             <presentation xmi:id="-vM8pIjQEXoSALTqznlGrxA" href="uma://-vM8pIjQEXoSALTqznlGrxA#-vM8pIjQEXoSALTqznlGrxA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_6rJNwAAlEeK2F4TMwJDD2g" name="new_task" guid="_6rJNwAAlEeK2F4TMwJDD2g" presentationName="New Task"/>
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_F34szfm0EeGw0sux5RQ_6A" name="CapabilityPatterns" guid="_F34szfm0EeGw0sux5RQ_6A">

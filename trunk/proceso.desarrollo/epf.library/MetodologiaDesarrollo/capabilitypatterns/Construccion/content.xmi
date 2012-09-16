@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ProcessDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-XlQD7nVSiJj2Rw1uNgUH6g" name="Construccion,_7iSEkftYEeGqXdxMnxN7qQ" guid="-XlQD7nVSiJj2Rw1uNgUH6g"/>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-XlQD7nVSiJj2Rw1uNgUH6g" name="Construccion,_7iSEkftYEeGqXdxMnxN7qQ" guid="-XlQD7nVSiJj2Rw1uNgUH6g"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-zzNz3xcQSHj_-fjyxQXJ8Q" name="desarrollar_interfaces_comunicaciones,_2bZ0sAAWEeK2F4TMwJDD2g" guid="-zzNz3xcQSHj_-fjyxQXJ8Q">
+    <refinedDescription>&lt;p>&#xD;
+    En caso de que sea necesario, se implementan interfaces y comunicaciones entre sistemas. Esta implementación es&#xD;
+    requerida cuando existe la necesidad de crear componentes que permitan comunicar sistemas distintos o dispositivos&#xD;
+    especiales. Se debe tener en cuenta las restricciones que se pudieren presentar durante la etapa de diseño.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

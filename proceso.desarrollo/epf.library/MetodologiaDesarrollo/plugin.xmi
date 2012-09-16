@@ -31,6 +31,7 @@
     <resourceDescriptors xmi:id="_P34-sAAuEeK2F4TMwJDD2g" id="-Aus4ed1jiqzBj-rKR00sTQ" uri="tasks/crear_ant_generacion_librerias.xmi"/>
     <resourceDescriptors xmi:id="_O7gw0ABAEeK2F4TMwJDD2g" id="-vdfTy0QU-Khqt1WQJYpIYA" uri="tasks/controlar_repositorio_nightbuild.xmi"/>
     <resourceDescriptors xmi:id="_D-J8UwBJEeK2F4TMwJDD2g" id="_D-J8UABJEeK2F4TMwJDD2g" uri="capabilitypatterns/DiagramaGeneral/model.xmi"/>
+    <resourceDescriptors xmi:id="_gs3uEABKEeK2F4TMwJDD2g" id="-3yPy1IOwcV1uHCf9l03dEA" uri="workproducts/componente_capa_acceso_datos.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_F34swPm0EeGw0sux5RQ_6A" name="MetodologiaDesarrollo" guid="_F34swPm0EeGw0sux5RQ_6A" briefDescription="Describe la metodologia de desarrollo con que se produce&#xD;&#xA;software en la compañia lucasian labs" authors="Alvaro Jose Peralta" changeDate="2012-09-08T08:52:58.114-0400" version="2.0">
     <methodElementProperty xmi:id="_F4dUg_m0EeGw0sux5RQ_6A" name="plugin_synFree" value="true"/>
@@ -144,27 +145,27 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_w3U8kAAgEeK2F4TMwJDD2g" name="resultado_pruebas_stress" guid="_w3U8kAAgEeK2F4TMwJDD2g" presentationName="Resultado de las pruebas de Stress" briefDescription="Resultado de las pruebas de Stress.">
             <methodElementProperty xmi:id="_11xMgAAgEeK2F4TMwJDD2g" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_iZ_T0AAhEeK2F4TMwJDD2g" name="crear_proyecto_eclipse_modulo_funcional" guid="_iZ_T0AAhEeK2F4TMwJDD2g" presentationName="Crear Proyecto Eclipse Módulo Funcional" briefDescription="Creación del esqueleto del proyecto en Eclipse, siguiendo los estándares de organización física de archivos y proyectos.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_iZ_T0AAhEeK2F4TMwJDD2g" name="crear_proyecto_eclipse_modulo_funcional" guid="_iZ_T0AAhEeK2F4TMwJDD2g" presentationName="Crear Proyecto Eclipse Módulo Funcional" briefDescription="Creación del esqueleto del proyecto en Eclipse, siguiendo los estándares de organización física de archivos y proyectos." performedBy="_zdCncPnGEeGw0sux5RQ_6A" mandatoryInput="_iHhEwAAWEeK2F4TMwJDD2g _oZs0gAAWEeK2F4TMwJDD2g">
             <methodElementProperty xmi:id="_5uMaIAAhEeK2F4TMwJDD2g" name="me_edited" value="true"/>
             <presentation xmi:id="-OLH5XTPbcnmSniEAn1P_jQ" href="uma://-OLH5XTPbcnmSniEAn1P_jQ#-OLH5XTPbcnmSniEAn1P_jQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_8PbAwAAhEeK2F4TMwJDD2g" name="revisar_especificacion_tecnica_aprobacion_arquitecto" guid="_8PbAwAAhEeK2F4TMwJDD2g" presentationName="Revisar Especificación Técnica y Aprobación del Arquitecto para Desarrollo" briefDescription="El arquitecto revisa la correcta especificación técnica del proyecto creado. En caso de cumplir con las especificaciones se inicia con la codificación.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_8PbAwAAhEeK2F4TMwJDD2g" name="revisar_especificacion_tecnica_aprobacion_arquitecto" guid="_8PbAwAAhEeK2F4TMwJDD2g" presentationName="Revisar Especificación Técnica y Aprobación del Arquitecto para Desarrollo" briefDescription="El arquitecto revisa la correcta especificación técnica del proyecto creado. En caso de cumplir con las especificaciones se inicia con la codificación." performedBy="_vUfdsPnGEeGw0sux5RQ_6A" mandatoryInput="_iHhEwAAWEeK2F4TMwJDD2g _oZs0gAAWEeK2F4TMwJDD2g" output="_XyTOUAAfEeK2F4TMwJDD2g">
             <methodElementProperty xmi:id="_bDvpkAAiEeK2F4TMwJDD2g" name="me_edited" value="true"/>
             <presentation xmi:id="-rrG3IGLF7NZV1svmCpmR1g" href="uma://-rrG3IGLF7NZV1svmCpmR1g#-rrG3IGLF7NZV1svmCpmR1g"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_b1NiwAAiEeK2F4TMwJDD2g" name="generar_presentacion_framework" guid="_b1NiwAAiEeK2F4TMwJDD2g" presentationName="Generar Capa de Presentación con el Framework." briefDescription="La capa de presentación es creada de acuerdo a la información proveniente de la capa de acceso de datos. La creación de la capa de presentación se hace con la ayuda del Framework de la empresa.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_b1NiwAAiEeK2F4TMwJDD2g" name="generar_presentacion_framework" guid="_b1NiwAAiEeK2F4TMwJDD2g" presentationName="Generar Capa de Presentación con el Framework." briefDescription="La capa de presentación es creada de acuerdo a la información proveniente de la capa de acceso de datos. La creación de la capa de presentación se hace con la ayuda del Framework de la empresa." performedBy="_zdCncPnGEeGw0sux5RQ_6A" mandatoryInput="_aWzj4ABKEeK2F4TMwJDD2g _XyTOUAAfEeK2F4TMwJDD2g" output="_wyPdsAAfEeK2F4TMwJDD2g">
             <methodElementProperty xmi:id="_qRFWcAAiEeK2F4TMwJDD2g" name="me_edited" value="true"/>
             <presentation xmi:id="-kA6wuJ6RjynxlprE9RQKQQ" href="uma://-kA6wuJ6RjynxlprE9RQKQQ#-kA6wuJ6RjynxlprE9RQKQQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ubqggAAiEeK2F4TMwJDD2g" name="codificar_servicios_negocio" guid="_ubqggAAiEeK2F4TMwJDD2g" presentationName="Codificar Servicios de Negocio" briefDescription="Codificación y desarrollo de los servicios de negocio (contiene la lógica de negocio de la aplicación)">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ubqggAAiEeK2F4TMwJDD2g" name="codificar_servicios_negocio" guid="_ubqggAAiEeK2F4TMwJDD2g" presentationName="Codificar Servicios de Negocio" briefDescription="Codificación y desarrollo de los servicios de negocio (contiene la lógica de negocio de la aplicación)" performedBy="_zdCncPnGEeGw0sux5RQ_6A" mandatoryInput="_iHhEwAAWEeK2F4TMwJDD2g _oZs0gAAWEeK2F4TMwJDD2g" output="_A_ERoAAgEeK2F4TMwJDD2g">
             <methodElementProperty xmi:id="_YBV9oAAkEeK2F4TMwJDD2g" name="me_edited" value="true"/>
             <presentation xmi:id="-OnOScHnOPdqYDxRb6R0WDw" href="uma://-OnOScHnOPdqYDxRb6R0WDw#-OnOScHnOPdqYDxRb6R0WDw"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Y0AwsAAkEeK2F4TMwJDD2g" name="validar_codificacion_vs_especificacion" guid="_Y0AwsAAkEeK2F4TMwJDD2g" presentationName="Validar Codificación vs Especificación" briefDescription="Validación de la codificación de los componentes de negocio en contraste con el documento de especificación.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Y0AwsAAkEeK2F4TMwJDD2g" name="validar_codificacion_vs_especificacion" guid="_Y0AwsAAkEeK2F4TMwJDD2g" presentationName="Validar Codificación vs Especificación" briefDescription="Validación de la codificación de los componentes de negocio en contraste con el documento de especificación." performedBy="_tjgoQPnGEeGw0sux5RQ_6A" mandatoryInput="_iHhEwAAWEeK2F4TMwJDD2g _oZs0gAAWEeK2F4TMwJDD2g" output="_GsvmIAAgEeK2F4TMwJDD2g _VOVAQAAgEeK2F4TMwJDD2g">
             <methodElementProperty xmi:id="_mltmAAAkEeK2F4TMwJDD2g" name="me_edited" value="true"/>
             <presentation xmi:id="-t1EvqN6pkxnrDRifdn6daw" href="uma://-t1EvqN6pkxnrDRifdn6daw#-t1EvqN6pkxnrDRifdn6daw"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_nUNDsAAkEeK2F4TMwJDD2g" name="pruebas_unitarias_desarrollo" guid="_nUNDsAAkEeK2F4TMwJDD2g" presentationName="Pruebas Unitarias Desarrollo" briefDescription="Creación de las pruebas unitarias en base a la especificación de los contratos de código.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_nUNDsAAkEeK2F4TMwJDD2g" name="pruebas_unitarias_desarrollo" guid="_nUNDsAAkEeK2F4TMwJDD2g" presentationName="Pruebas Unitarias Desarrollo" briefDescription="Creación de las pruebas unitarias en base a la especificación de los contratos de código." performedBy="_zdCncPnGEeGw0sux5RQ_6A" mandatoryInput="_iHhEwAAWEeK2F4TMwJDD2g _oZs0gAAWEeK2F4TMwJDD2g" output="_lw1wUAAgEeK2F4TMwJDD2g">
             <methodElementProperty xmi:id="_vStyYAAkEeK2F4TMwJDD2g" name="me_edited" value="true"/>
             <presentation xmi:id="-wa0TlHQnLfFDySNfWRO3gw" href="uma://-wa0TlHQnLfFDySNfWRO3gw#-wa0TlHQnLfFDySNfWRO3gw"/>
           </contentElements>
@@ -172,32 +173,36 @@
             <methodElementProperty xmi:id="_KeJo8AAlEeK2F4TMwJDD2g" name="me_edited" value="true"/>
             <presentation xmi:id="-0YvVQ3lZYk3VzJ1p-GB-nA" href="uma://-0YvVQ3lZYk3VzJ1p-GB-nA#-0YvVQ3lZYk3VzJ1p-GB-nA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_LerR0AAlEeK2F4TMwJDD2g" name="pruebas_carga_segun_necesidad" guid="_LerR0AAlEeK2F4TMwJDD2g" presentationName="Pruebas Carga Según Necesidad" briefDescription="Ejecución de las pruebas de carga según el contexto y la necesidad del componente de negocio.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_LerR0AAlEeK2F4TMwJDD2g" name="pruebas_carga_segun_necesidad" guid="_LerR0AAlEeK2F4TMwJDD2g" presentationName="Pruebas Carga Según Necesidad" briefDescription="Ejecución de las pruebas de carga según el contexto y la necesidad del componente de negocio." performedBy="_zdCncPnGEeGw0sux5RQ_6A" mandatoryInput="_iHhEwAAWEeK2F4TMwJDD2g _oZs0gAAWEeK2F4TMwJDD2g _eMZugAAgEeK2F4TMwJDD2g" output="_lw1wUAAgEeK2F4TMwJDD2g">
             <methodElementProperty xmi:id="_RuBwAAAlEeK2F4TMwJDD2g" name="me_edited" value="true"/>
             <presentation xmi:id="-VByv-I_QQoT9_P6zeo9OnQ" href="uma://-VByv-I_QQoT9_P6zeo9OnQ#-VByv-I_QQoT9_P6zeo9OnQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_YbLkgAAlEeK2F4TMwJDD2g" name="validar_compilacion_controlar_repositorio_commit" guid="_YbLkgAAlEeK2F4TMwJDD2g" presentationName="Validar Compilación Controlar en Respositorio Commit" briefDescription="Verificar la correcta compilación del código. Si la compilación fue exitosa se actualiza el repositorio por medio de un Commit. No se debe actualizar código que no compile adecuadamente.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_YbLkgAAlEeK2F4TMwJDD2g" name="validar_compilacion_controlar_repositorio_commit" guid="_YbLkgAAlEeK2F4TMwJDD2g" presentationName="Validar Compilación Controlar en Respositorio Commit" briefDescription="Verificar la correcta compilación del código. Si la compilación fue exitosa se actualiza el repositorio por medio de un Commit. No se debe actualizar código que no compile adecuadamente." performedBy="_zdCncPnGEeGw0sux5RQ_6A">
             <methodElementProperty xmi:id="_qRW74AAlEeK2F4TMwJDD2g" name="me_edited" value="true"/>
             <presentation xmi:id="-6sm00-uSwyHypQ3iXZsmUA" href="uma://-6sm00-uSwyHypQ3iXZsmUA#-6sm00-uSwyHypQ3iXZsmUA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_rbHZQAAlEeK2F4TMwJDD2g" name="actualizar_ant_generacion_agendar_nightbuild" guid="_rbHZQAAlEeK2F4TMwJDD2g" presentationName="Actualizar Ant de generación y agendar en NightBuild" briefDescription="Actualización de los archivos de configuración de los builds (Ant) e incluir el código fuente en los planes nocturnos de construcción e integración de código.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_rbHZQAAlEeK2F4TMwJDD2g" name="actualizar_ant_generacion_agendar_nightbuild" guid="_rbHZQAAlEeK2F4TMwJDD2g" presentationName="Actualizar Ant de generación y agendar en NightBuild" briefDescription="Actualización de los archivos de configuración de los builds (Ant) e incluir el código fuente en los planes nocturnos de construcción e integración de código." performedBy="_zdCncPnGEeGw0sux5RQ_6A">
             <methodElementProperty xmi:id="_6TmQcAAlEeK2F4TMwJDD2g" name="me_edited" value="true"/>
             <presentation xmi:id="-vM8pIjQEXoSALTqznlGrxA" href="uma://-vM8pIjQEXoSALTqznlGrxA#-vM8pIjQEXoSALTqznlGrxA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_LueHsAAtEeK2F4TMwJDD2g" name="crear_proyecto_eclipse_acceso_datos_unico_sistema" guid="_LueHsAAtEeK2F4TMwJDD2g" presentationName="Crear Proyecto Eclipse de Acceso de Datos Único para el Sistema" briefDescription="Creación del proyecto que servirá de contenedor para la capa de acceso de datos del sistema.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_LueHsAAtEeK2F4TMwJDD2g" name="crear_proyecto_eclipse_acceso_datos_unico_sistema" guid="_LueHsAAtEeK2F4TMwJDD2g" presentationName="Crear Proyecto Eclipse de Acceso de Datos Único para el Sistema" briefDescription="Creación del proyecto que servirá de contenedor para la capa de acceso de datos del sistema." performedBy="_zdCncPnGEeGw0sux5RQ_6A" mandatoryInput="_oZs0gAAWEeK2F4TMwJDD2g">
             <methodElementProperty xmi:id="_2W4CkAAtEeK2F4TMwJDD2g" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_2_GgMAAtEeK2F4TMwJDD2g" name="generar_capa_acceso_datos_framework" guid="_2_GgMAAtEeK2F4TMwJDD2g" presentationName="Generar Capa de Acceso de datos con el Framework" briefDescription="Generación automática de los componentes de la capa de acceso de datos mediante el uso del Framework de la empresa.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_2_GgMAAtEeK2F4TMwJDD2g" name="generar_capa_acceso_datos_framework" guid="_2_GgMAAtEeK2F4TMwJDD2g" presentationName="Generar Capa de Acceso de datos con el Framework" briefDescription="Generación automática de los componentes de la capa de acceso de datos mediante el uso del Framework de la empresa." performedBy="_zdCncPnGEeGw0sux5RQ_6A" output="_aWzj4ABKEeK2F4TMwJDD2g">
             <methodElementProperty xmi:id="_ByX1gAAuEeK2F4TMwJDD2g" name="me_edited" value="true"/>
             <presentation xmi:id="-i9uKv9Mi9PIGkU0WHyzUdQ" href="uma://-i9uKv9Mi9PIGkU0WHyzUdQ#-i9uKv9Mi9PIGkU0WHyzUdQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_FF0jQAAuEeK2F4TMwJDD2g" name="crear_ant_generacion_librerias" guid="_FF0jQAAuEeK2F4TMwJDD2g" presentationName="Crear Ant para la Generación de Librerías." briefDescription="Creación del archivo de configuración (Ant) para la inclusión del proyecto como librería del sistema.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_FF0jQAAuEeK2F4TMwJDD2g" name="crear_ant_generacion_librerias" guid="_FF0jQAAuEeK2F4TMwJDD2g" presentationName="Crear Ant para la Generación de Librerías." briefDescription="Creación del archivo de configuración (Ant) para la inclusión del proyecto como librería del sistema." performedBy="_zdCncPnGEeGw0sux5RQ_6A">
             <methodElementProperty xmi:id="_P3mDwAAuEeK2F4TMwJDD2g" name="me_edited" value="true"/>
             <presentation xmi:id="-Aus4ed1jiqzBj-rKR00sTQ" href="uma://-Aus4ed1jiqzBj-rKR00sTQ#-Aus4ed1jiqzBj-rKR00sTQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_47DxYAA_EeK2F4TMwJDD2g" name="controlar_repositorio_nightbuild" guid="_47DxYAA_EeK2F4TMwJDD2g" presentationName="Controlar en Repositorio Agendar NightBuild" briefDescription="Check-in de la capa de acceso de datos al repositorio; además inclusión del proyecto en los programas automáticos de construcción e integración nocturnos.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_47DxYAA_EeK2F4TMwJDD2g" name="controlar_repositorio_nightbuild" guid="_47DxYAA_EeK2F4TMwJDD2g" presentationName="Controlar en Repositorio Agendar NightBuild" briefDescription="Check-in de la capa de acceso de datos al repositorio; además inclusión del proyecto en los programas automáticos de construcción e integración nocturnos." performedBy="_zdCncPnGEeGw0sux5RQ_6A">
             <methodElementProperty xmi:id="_O7W_0ABAEeK2F4TMwJDD2g" name="me_edited" value="true"/>
             <presentation xmi:id="-vdfTy0QU-Khqt1WQJYpIYA" href="uma://-vdfTy0QU-Khqt1WQJYpIYA#-vdfTy0QU-Khqt1WQJYpIYA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_aWzj4ABKEeK2F4TMwJDD2g" name="componente_capa_acceso_datos" guid="_aWzj4ABKEeK2F4TMwJDD2g" presentationName="Capa de Acceso de Datos" briefDescription="Capa de Acceso de Datos generada por el Framework de la Empresa.">
+            <methodElementProperty xmi:id="_gskMEABKEeK2F4TMwJDD2g" name="me_edited" value="true"/>
+            <presentation xmi:id="-3yPy1IOwcV1uHCf9l03dEA" href="uma://-3yPy1IOwcV1uHCf9l03dEA#-3yPy1IOwcV1uHCf9l03dEA"/>
           </contentElements>
         </childPackages>
       </childPackages>

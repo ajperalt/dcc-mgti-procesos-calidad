@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_O9moMAOFEeKy5tDcSXQxJw" guid="_O9moMAOFEeKy5tDcSXQxJw">
+    <resourceDescriptors xmi:id="_O9moMQOFEeKy5tDcSXQxJw" id="-ryLBsyeJAYsfw9k1wxwspQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_O3xtAAOFEeKy5tDcSXQxJw" name="ConstruccionV2" guid="_O3xtAAOFEeKy5tDcSXQxJw">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_SMFWYQOFEeKy5tDcSXQxJw" name="New Activity" guid="_SMFWYQOFEeKy5tDcSXQxJw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_SMFWYgOFEeKy5tDcSXQxJw" name="New Activity" guid="_SMFWYgOFEeKy5tDcSXQxJw" presentationName="Construir estructura del programa" superActivities="_O3xtAQOFEeKy5tDcSXQxJw" linkToPredecessor="_WwkS8QPtEeKxAtXEFF4U9Q" breakdownElements="_QtgwgQOOEeKy5tDcSXQxJw _1dT5QAOOEeKy5tDcSXQxJw _ACV-QQOPEeKy5tDcSXQxJw _N19fIAOPEeKy5tDcSXQxJw _kZ4_EQOPEeKy5tDcSXQxJw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_QtgwgQOOEeKy5tDcSXQxJw" name="New Task Descriptor" guid="_QtgwgQOOEeKy5tDcSXQxJw" presentationName="Crear Proyecto Eclipse de Acceso de Datos Único para el Sistema" superActivities="_SMFWYgOFEeKy5tDcSXQxJw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_1dT5QAOOEeKy5tDcSXQxJw" name="New Task Descriptor_2" guid="_1dT5QAOOEeKy5tDcSXQxJw" presentationName="Generar Capa de Acceso de datos con la herramienta LEAF" superActivities="_SMFWYgOFEeKy5tDcSXQxJw" linkToPredecessor="_Uo4kcQOPEeKy5tDcSXQxJw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_ACV-QQOPEeKy5tDcSXQxJw" name="New Task Descriptor_3" guid="_ACV-QQOPEeKy5tDcSXQxJw" presentationName="Crear Proyecto Eclipse Módulo Funcional" superActivities="_SMFWYgOFEeKy5tDcSXQxJw" linkToPredecessor="_YOk4wQOPEeKy5tDcSXQxJw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_N19fIAOPEeKy5tDcSXQxJw" name="New Task Descriptor_4" guid="_N19fIAOPEeKy5tDcSXQxJw" presentationName="Crear Ant para la Generación de Librerías." superActivities="_SMFWYgOFEeKy5tDcSXQxJw" linkToPredecessor="_cWdUIQOPEeKy5tDcSXQxJw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_Uo4kcQOPEeKy5tDcSXQxJw" guid="_Uo4kcQOPEeKy5tDcSXQxJw" pred="_QtgwgQOOEeKy5tDcSXQxJw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_YOk4wQOPEeKy5tDcSXQxJw" guid="_YOk4wQOPEeKy5tDcSXQxJw" pred="_1dT5QAOOEeKy5tDcSXQxJw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_cWdUIQOPEeKy5tDcSXQxJw" guid="_cWdUIQOPEeKy5tDcSXQxJw" pred="_ACV-QQOPEeKy5tDcSXQxJw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_kZ4_EQOPEeKy5tDcSXQxJw" name="New Task Descriptor_5" guid="_kZ4_EQOPEeKy5tDcSXQxJw" presentationName="Controlar en Repositorio Agendar NightBuild" superActivities="_SMFWYgOFEeKy5tDcSXQxJw" linkToPredecessor="_lx23kQOPEeKy5tDcSXQxJw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_lx23kQOPEeKy5tDcSXQxJw" guid="_lx23kQOPEeKy5tDcSXQxJw" pred="_N19fIAOPEeKy5tDcSXQxJw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_WwkS8QPtEeKxAtXEFF4U9Q" guid="_WwkS8QPtEeKxAtXEFF4U9Q" pred="_Ifa8cgOIEeKy5tDcSXQxJw"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Ifa8cQOIEeKy5tDcSXQxJw" name="New Activity_2" guid="_Ifa8cQOIEeKy5tDcSXQxJw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_Ifa8cgOIEeKy5tDcSXQxJw" name="New Activity_2" guid="_Ifa8cgOIEeKy5tDcSXQxJw" presentationName="Analizar especificación funcional y tecnica" superActivities="_O3xtAQOFEeKy5tDcSXQxJw" breakdownElements="_wh1lIQOLEeKy5tDcSXQxJw _Gih1IQOMEeKy5tDcSXQxJw _3QLOUQPsEeKxAtXEFF4U9Q _5ogXoQPsEeKxAtXEFF4U9Q"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_wh1lIQOLEeKy5tDcSXQxJw" name="New Task Descriptor" guid="_wh1lIQOLEeKy5tDcSXQxJw" presentationName="Lectura y verificacion del documento de especificacion" superActivities="_Ifa8cgOIEeKy5tDcSXQxJw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Gih1IQOMEeKy5tDcSXQxJw" name="New Task Descriptor_2" guid="_Gih1IQOMEeKy5tDcSXQxJw" presentationName="Estimar tiempo de implementación" superActivities="_Ifa8cgOIEeKy5tDcSXQxJw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_3QLOUQPsEeKxAtXEFF4U9Q" name="New Task Descriptor_3" guid="_3QLOUQPsEeKxAtXEFF4U9Q" presentationName="Definir propuesta de estructura" superActivities="_Ifa8cgOIEeKy5tDcSXQxJw" linkToPredecessor="_MoFnEAPtEeKxAtXEFF4U9Q"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_5ogXoQPsEeKxAtXEFF4U9Q" name="New Task Descriptor_4" guid="_5ogXoQPsEeKxAtXEFF4U9Q" presentationName="Revisar Especificación Técnica y Aprobación del Arquitecto para Desarrollo" superActivities="_Ifa8cgOIEeKy5tDcSXQxJw" linkToPredecessor="_NDTjcAPtEeKxAtXEFF4U9Q"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_MoFnEAPtEeKxAtXEFF4U9Q" guid="_MoFnEAPtEeKxAtXEFF4U9Q" pred="_wh1lIQOLEeKy5tDcSXQxJw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_NDTjcAPtEeKxAtXEFF4U9Q" guid="_NDTjcAPtEeKxAtXEFF4U9Q" pred="_3QLOUQPsEeKxAtXEFF4U9Q"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_kgtc8QOIEeKy5tDcSXQxJw" name="New Activity_3" guid="_kgtc8QOIEeKy5tDcSXQxJw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_kgtc8gOIEeKy5tDcSXQxJw" name="New Activity_3" guid="_kgtc8gOIEeKy5tDcSXQxJw" presentationName="Implementar componentes y programas" superActivities="_O3xtAQOFEeKy5tDcSXQxJw" linkToPredecessor="_WwqZkAPtEeKxAtXEFF4U9Q" breakdownElements="_FfVggAOREeKy5tDcSXQxJw _oGL_wQOREeKy5tDcSXQxJw _s56NcQOREeKy5tDcSXQxJw _Fgx1gQOSEeKy5tDcSXQxJw _fY9tIQPiEeKxAtXEFF4U9Q"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_qFTNQQOQEeKy5tDcSXQxJw" guid="_qFTNQQOQEeKy5tDcSXQxJw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_FfVggAOREeKy5tDcSXQxJw" name="New Task Descriptor_3" guid="_FfVggAOREeKy5tDcSXQxJw" presentationName="Ejecutar generación de capas ( presentacion, negocio )" superActivities="_kgtc8gOIEeKy5tDcSXQxJw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_oGL_wQOREeKy5tDcSXQxJw" name="New Task Descriptor_4" guid="_oGL_wQOREeKy5tDcSXQxJw" presentationName="Implementar Negocio" superActivities="_kgtc8gOIEeKy5tDcSXQxJw" linkToPredecessor="_2rjtsQOREeKy5tDcSXQxJw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_s56NcQOREeKy5tDcSXQxJw" name="New Task Descriptor_5" guid="_s56NcQOREeKy5tDcSXQxJw" presentationName="Implementar Presentación" superActivities="_kgtc8gOIEeKy5tDcSXQxJw" linkToPredecessor="_3PXlYQOREeKy5tDcSXQxJw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_2rjtsQOREeKy5tDcSXQxJw" guid="_2rjtsQOREeKy5tDcSXQxJw" pred="_FfVggAOREeKy5tDcSXQxJw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_3PXlYQOREeKy5tDcSXQxJw" guid="_3PXlYQOREeKy5tDcSXQxJw" pred="_FfVggAOREeKy5tDcSXQxJw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Fgx1gQOSEeKy5tDcSXQxJw" name="New Task Descriptor_6" guid="_Fgx1gQOSEeKy5tDcSXQxJw" presentationName="verificar implementación vs especificación" superActivities="_kgtc8gOIEeKy5tDcSXQxJw" linkToPredecessor="_PtQ3oQOSEeKy5tDcSXQxJw _mAlhYAPiEeKxAtXEFF4U9Q"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_PtQ3oQOSEeKy5tDcSXQxJw" guid="_PtQ3oQOSEeKy5tDcSXQxJw" pred="_s56NcQOREeKy5tDcSXQxJw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_Eu2XYQOUEeKy5tDcSXQxJw" guid="_Eu2XYQOUEeKy5tDcSXQxJw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_FtZqUQOUEeKy5tDcSXQxJw" guid="_FtZqUQOUEeKy5tDcSXQxJw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_fY9tIQPiEeKxAtXEFF4U9Q" name="New Task Descriptor_7" guid="_fY9tIQPiEeKxAtXEFF4U9Q" presentationName="Ejecutar pruebas unitarias" superActivities="_kgtc8gOIEeKy5tDcSXQxJw" linkToPredecessor="_lYHMIQPiEeKxAtXEFF4U9Q"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_lYHMIQPiEeKxAtXEFF4U9Q" guid="_lYHMIQPiEeKxAtXEFF4U9Q" pred="_oGL_wQOREeKy5tDcSXQxJw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_mAlhYAPiEeKxAtXEFF4U9Q" guid="_mAlhYAPiEeKxAtXEFF4U9Q" pred="_fY9tIQPiEeKxAtXEFF4U9Q"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_WwqZkAPtEeKxAtXEFF4U9Q" guid="_WwqZkAPtEeKxAtXEFF4U9Q" pred="_Ifa8cgOIEeKy5tDcSXQxJw"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_gV4l0QOJEeKy5tDcSXQxJw" name="New Activity_4" guid="_gV4l0QOJEeKy5tDcSXQxJw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_gV4l0gOJEeKy5tDcSXQxJw" name="New Activity_4" guid="_gV4l0gOJEeKy5tDcSXQxJw" presentationName="verificar componentes y programas" superActivities="_O3xtAQOFEeKy5tDcSXQxJw" linkToPredecessor="_rjgU0gOJEeKy5tDcSXQxJw _rjgU0wOJEeKy5tDcSXQxJw" breakdownElements="_N7KggAOVEeKy5tDcSXQxJw _TUsxAQOVEeKy5tDcSXQxJw _V2SkAQOVEeKy5tDcSXQxJw _bjglgQOVEeKy5tDcSXQxJw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_rjgU0gOJEeKy5tDcSXQxJw" guid="_rjgU0gOJEeKy5tDcSXQxJw" pred="_SMFWYgOFEeKy5tDcSXQxJw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_rjgU0wOJEeKy5tDcSXQxJw" guid="_rjgU0wOJEeKy5tDcSXQxJw" pred="_kgtc8gOIEeKy5tDcSXQxJw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_N7KggAOVEeKy5tDcSXQxJw" name="New Task Descriptor" guid="_N7KggAOVEeKy5tDcSXQxJw" presentationName="Pruebas de integracion Desarrollo" superActivities="_gV4l0gOJEeKy5tDcSXQxJw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_TUsxAQOVEeKy5tDcSXQxJw" name="New Task Descriptor_2" guid="_TUsxAQOVEeKy5tDcSXQxJw" presentationName="Pruebas Carga Según Necesidad" superActivities="_gV4l0gOJEeKy5tDcSXQxJw" linkToPredecessor="_XNNToQOVEeKy5tDcSXQxJw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_V2SkAQOVEeKy5tDcSXQxJw" name="New Task Descriptor_3" guid="_V2SkAQOVEeKy5tDcSXQxJw" presentationName="Validar Compilación Controlar en Respositorio Commit" superActivities="_gV4l0gOJEeKy5tDcSXQxJw" linkToPredecessor="_XneNwAOVEeKy5tDcSXQxJw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_XNNToQOVEeKy5tDcSXQxJw" guid="_XNNToQOVEeKy5tDcSXQxJw" pred="_N7KggAOVEeKy5tDcSXQxJw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_XneNwAOVEeKy5tDcSXQxJw" guid="_XneNwAOVEeKy5tDcSXQxJw" pred="_TUsxAQOVEeKy5tDcSXQxJw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_bjglgQOVEeKy5tDcSXQxJw" name="New Task Descriptor_4" guid="_bjglgQOVEeKy5tDcSXQxJw" presentationName="Correr  ant de generacion y verficar librerias" superActivities="_gV4l0gOJEeKy5tDcSXQxJw" linkToPredecessor="_dH4iUQOVEeKy5tDcSXQxJw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_dH4iUQOVEeKy5tDcSXQxJw" guid="_dH4iUQOVEeKy5tDcSXQxJw" pred="_V2SkAQOVEeKy5tDcSXQxJw"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_O3xtAQOFEeKy5tDcSXQxJw" name="ConstruccionV2" guid="_O3xtAQOFEeKy5tDcSXQxJw" presentationName="ConstruccionV2" breakdownElements="_SMFWYgOFEeKy5tDcSXQxJw _Ifa8cgOIEeKy5tDcSXQxJw _kgtc8gOIEeKy5tDcSXQxJw _gV4l0gOJEeKy5tDcSXQxJw">
+      <presentation xmi:id="-ryLBsyeJAYsfw9k1wxwspQ" href="uma://-ryLBsyeJAYsfw9k1wxwspQ#-ryLBsyeJAYsfw9k1wxwspQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

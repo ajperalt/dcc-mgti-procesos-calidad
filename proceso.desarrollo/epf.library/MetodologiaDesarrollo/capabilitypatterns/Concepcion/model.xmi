@@ -6,8 +6,17 @@
   <org.eclipse.epf.uma:ProcessComponent xmi:id="_7q31UPtXEeGqXdxMnxN7qQ" name="Concepcion" guid="_7q31UPtXEeGqXdxMnxN7qQ">
     <methodElementProperty xmi:id="_D-WucPtYEeGqXdxMnxN7qQ" name="me_edited" value="true"/>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_kU7xMft5EeGqXdxMnxN7qQ" name="New Activity" guid="_kU7xMft5EeGqXdxMnxN7qQ">
-      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_kU7xMvt5EeGqXdxMnxN7qQ" name="New Activity" guid="_kU7xMvt5EeGqXdxMnxN7qQ" presentationName="Crear plan de proyecto" superActivities="_7q31UftXEeGqXdxMnxN7qQ" linkToPredecessor="_rkUJAft5EeGqXdxMnxN7qQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_kU7xMvt5EeGqXdxMnxN7qQ" name="New Activity" guid="_kU7xMvt5EeGqXdxMnxN7qQ" presentationName="Crear plan de proyecto" superActivities="_7q31UftXEeGqXdxMnxN7qQ" linkToPredecessor="_rkUJAft5EeGqXdxMnxN7qQ" breakdownElements="_oGcwsf1KEeGzFO2q06vpCQ _wTDlwf1KEeGzFO2q06vpCQ _39eTwf1KEeGzFO2q06vpCQ _7_btUf1KEeGzFO2q06vpCQ _VH0uEP1LEeGzFO2q06vpCQ"/>
       <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_rkUJAft5EeGqXdxMnxN7qQ" guid="_rkUJAft5EeGqXdxMnxN7qQ" pred="_MyoNMftoEeGqXdxMnxN7qQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_oGcwsf1KEeGzFO2q06vpCQ" name="New Task Descriptor" guid="_oGcwsf1KEeGzFO2q06vpCQ" presentationName="Construir documento de plan de proyecto" superActivities="_kU7xMvt5EeGqXdxMnxN7qQ" linkToPredecessor="_u4blYf1LEeGzFO2q06vpCQ _u4blYv1LEeGzFO2q06vpCQ _u4blY_1LEeGzFO2q06vpCQ _u4blZP1LEeGzFO2q06vpCQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_wTDlwf1KEeGzFO2q06vpCQ" name="New Task Descriptor_2" guid="_wTDlwf1KEeGzFO2q06vpCQ" presentationName="Estimacion de tareas en el proyecto" superActivities="_kU7xMvt5EeGqXdxMnxN7qQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_39eTwf1KEeGzFO2q06vpCQ" name="New Task Descriptor_3" guid="_39eTwf1KEeGzFO2q06vpCQ" presentationName="Identificar riesgos del proyecto" superActivities="_kU7xMvt5EeGqXdxMnxN7qQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_7_btUf1KEeGzFO2q06vpCQ" name="New Task Descriptor_4" guid="_7_btUf1KEeGzFO2q06vpCQ" presentationName="Identificar responsables de actividades" superActivities="_kU7xMvt5EeGqXdxMnxN7qQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_VH0uEP1LEeGzFO2q06vpCQ" name="New Task Descriptor_5" guid="_VH0uEP1LEeGzFO2q06vpCQ" presentationName="Definir artefactos de calidad" superActivities="_kU7xMvt5EeGqXdxMnxN7qQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_u4blYf1LEeGzFO2q06vpCQ" guid="_u4blYf1LEeGzFO2q06vpCQ" pred="_7_btUf1KEeGzFO2q06vpCQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_u4blYv1LEeGzFO2q06vpCQ" guid="_u4blYv1LEeGzFO2q06vpCQ" pred="_39eTwf1KEeGzFO2q06vpCQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_u4blY_1LEeGzFO2q06vpCQ" guid="_u4blY_1LEeGzFO2q06vpCQ" pred="_wTDlwf1KEeGzFO2q06vpCQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_u4blZP1LEeGzFO2q06vpCQ" guid="_u4blZP1LEeGzFO2q06vpCQ" pred="_VH0uEP1LEeGzFO2q06vpCQ"/>
     </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_7Qvloft5EeGqXdxMnxN7qQ" name="New Activity_2" guid="_7Qvloft5EeGqXdxMnxN7qQ">
       <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_7Qvlovt5EeGqXdxMnxN7qQ" name="New Activity_2" guid="_7Qvlovt5EeGqXdxMnxN7qQ" presentationName="Analizar el negocio" superActivities="_7q31UftXEeGqXdxMnxN7qQ" linkToPredecessor="_9bIZkft5EeGqXdxMnxN7qQ"/>

@@ -8,6 +8,7 @@
     <subManagers xmi:id="_-Ul0IftYEeGqXdxMnxN7qQ" href="uma://_-UHTAPtYEeGqXdxMnxN7qQ#_-Ul0IftYEeGqXdxMnxN7qQ"/>
     <subManagers xmi:id="_Hz2sQAAtEeK2F4TMwJDD2g" href="uma://_HvFhAAAtEeK2F4TMwJDD2g#_Hz2sQAAtEeK2F4TMwJDD2g"/>
     <subManagers xmi:id="_EAF2AQBJEeK2F4TMwJDD2g" href="uma://_D-J8UABJEeK2F4TMwJDD2g#_EAF2AQBJEeK2F4TMwJDD2g"/>
+    <subManagers xmi:id="_O9moMAOFEeKy5tDcSXQxJw" href="uma://_O3xtAAOFEeKy5tDcSXQxJw#_O9moMAOFEeKy5tDcSXQxJw"/>
     <resourceDescriptors xmi:id="_VSePIfrrEeGw0sux5RQ_6A" id="_VSYIgPrrEeGw0sux5RQ_6A" uri="deliveryprocesses/lucasian.labs.metodologia.desarrollo/model.xmi"/>
     <resourceDescriptors xmi:id="_7q31U_tXEeGqXdxMnxN7qQ" id="_7q31UPtXEeGqXdxMnxN7qQ" uri="capabilitypatterns/Concepcion/model.xmi"/>
     <resourceDescriptors xmi:id="_-kuXU_tXEeGqXdxMnxN7qQ" id="_-kuXUPtXEeGqXdxMnxN7qQ" uri="capabilitypatterns/Elaboracion/model.xmi"/>
@@ -32,8 +33,9 @@
     <resourceDescriptors xmi:id="_O7gw0ABAEeK2F4TMwJDD2g" id="-vdfTy0QU-Khqt1WQJYpIYA" uri="tasks/controlar_repositorio_nightbuild.xmi"/>
     <resourceDescriptors xmi:id="_D-J8UwBJEeK2F4TMwJDD2g" id="_D-J8UABJEeK2F4TMwJDD2g" uri="capabilitypatterns/DiagramaGeneral/model.xmi"/>
     <resourceDescriptors xmi:id="_gs3uEABKEeK2F4TMwJDD2g" id="-3yPy1IOwcV1uHCf9l03dEA" uri="workproducts/componente_capa_acceso_datos.xmi"/>
+    <resourceDescriptors xmi:id="_O8vskAOFEeKy5tDcSXQxJw" id="_O3xtAAOFEeKy5tDcSXQxJw" uri="capabilitypatterns/ConstruccionV2/model.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
-  <org.eclipse.epf.uma:MethodPlugin xmi:id="_F34swPm0EeGw0sux5RQ_6A" name="MetodologiaDesarrollo" guid="_F34swPm0EeGw0sux5RQ_6A" briefDescription="Describe la metodologia de desarrollo con que se produce&#xD;&#xA;software en la compañia lucasian labs" authors="Alvaro Jose Peralta" changeDate="2012-09-08T08:52:58.114-0400" version="2.0">
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_F34swPm0EeGw0sux5RQ_6A" name="MetodologiaDesarrollo" guid="_F34swPm0EeGw0sux5RQ_6A" briefDescription="Describe la metodologia de desarrollo con que se produce&#xD;&#xA;software en la compañia lucasian labs" authors="Alvaro Jose Peralta" changeDate="2012-09-08T09:52:58.114-0300" version="2.0">
     <methodElementProperty xmi:id="_F4dUg_m0EeGw0sux5RQ_6A" name="plugin_synFree" value="true"/>
     <methodElementProperty xmi:id="_HjhIIPm0EeGw0sux5RQ_6A" name="me_edited" value="true"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_F34swfm0EeGw0sux5RQ_6A" name="Content" guid="_F34swfm0EeGw0sux5RQ_6A">
@@ -213,6 +215,7 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_-UHTAPtYEeGqXdxMnxN7qQ" href="uma://_-UHTAPtYEeGqXdxMnxN7qQ#_-UHTAPtYEeGqXdxMnxN7qQ"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_HvFhAAAtEeK2F4TMwJDD2g" href="uma://_HvFhAAAtEeK2F4TMwJDD2g#_HvFhAAAtEeK2F4TMwJDD2g"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_D-J8UABJEeK2F4TMwJDD2g" href="uma://_D-J8UABJEeK2F4TMwJDD2g#_D-J8UABJEeK2F4TMwJDD2g"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_O3xtAAOFEeKy5tDcSXQxJw" href="uma://_O3xtAAOFEeKy5tDcSXQxJw#_O3xtAAOFEeKy5tDcSXQxJw"/>
       </childPackages>
     </methodPackages>
     <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_F34szvm0EeGw0sux5RQ_6A" name="DeliveryProcesses" guid="_F34szvm0EeGw0sux5RQ_6A">
